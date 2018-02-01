@@ -36,8 +36,7 @@
 </div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../img/ricky.jpg" alt="Card image cap">
-        <img class="card-img-top" src="../img/ricky(2).jpg" alt="Card image cap">
+        <img class="card-img-top" src="../img/damian.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Profile</h5>
           <p class="card-text">Naam: Damian <br>Klas: I7AO2<br>Leeftijd: 16<br></p>
