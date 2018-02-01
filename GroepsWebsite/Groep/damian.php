@@ -24,10 +24,10 @@
       <a class="nav-link" href="Robbin.php">Robbin</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Damian.php">Damian</a>
+      <a class="nav-link active" href="Damian.php">Damian</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="Pim.php">Pim</a>
+      <a class="nav-link" href="Pim.php">Pim</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Peter.php">Peter</a>
