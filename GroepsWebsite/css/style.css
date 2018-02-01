@@ -11,6 +11,11 @@
     background-color: rgb(217, 217, 217);
 }
 
+#pica {
+  width: 286px;
+  height: 286px;
+}
+
 .menu li {
     float: left;
     display: inline-block;
