@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
+    <div class="card text-center">
+<div class="card-header">
+  <ul class="nav nav-pills card-header-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="../HoofdPagina.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Laurence.php">Laurence</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="Arben.php">Arben</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Robbin.php">Robbin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Damian.php">Damian</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Pim.php">Pim</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Peter.php">Peter</a>
+    </li>
+  </ul>
+</div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="../img/Arben.jpg" alt="Card image cap">
