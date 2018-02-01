@@ -9,3 +9,10 @@ header {
 	top:50px;
 	color: white;
 }
+
+footer {
+	height: 20px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+}
