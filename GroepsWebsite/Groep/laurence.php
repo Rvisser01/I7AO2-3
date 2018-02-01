@@ -7,6 +7,32 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
   <body>
+    <div class="card text-center">
+<div class="card-header">
+  <ul class="nav nav-pills card-header-pills">
+    <li class="nav-item">
+      <a class="nav-link active" href="HoofdPagina.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Laurence.php">Laurence</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Arben.php">Arben</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Robbin.php">Robbin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Damian.php">Damian</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Pim.php">Pim</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="groep/Peter.php">Peter</a>
+    </li>
+  </ul>
+</div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="../img/Laurence.png" alt="Card image cap">
