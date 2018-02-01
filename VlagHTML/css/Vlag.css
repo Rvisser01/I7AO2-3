@@ -1,11 +1,13 @@
 body {
-    background-color: green;
+    background-color: grey;
 }
 
 .rood {
     display: block;
     height: 50px;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     margin: 0;
     padding: 0;
     width: 300px;
@@ -26,7 +28,9 @@ body {
 .blauw {
     display: block;
     height: 50px;
-    border: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 0;
     padding: 0;
     width: 300px;
