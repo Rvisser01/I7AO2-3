@@ -11,7 +11,7 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link active" href="HoofdPagina.html">Home</a>
+      <a class="nav-link" href="HoofdPagina.html">Home</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="groep/Laurence.php">Laurence</a>
@@ -29,7 +29,7 @@
       <a class="nav-link" href="groep/Pim.php">Pim</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Peter.php">Peter</a>
+      <a class="nav-link active" href="groep/Peter.php">Peter</a>
     </li>
   </ul>
 </div>
