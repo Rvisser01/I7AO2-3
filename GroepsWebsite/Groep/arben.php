@@ -11,13 +11,13 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link active" href="HoofdPagina.html">Home</a>
+      <a class="nav-link" href="HoofdPagina.html">Home</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="groep/Laurence.php">Laurence</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Arben.php">Arben</a>
+      <a class="nav-link active" href="groep/Arben.php">Arben</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="groep/Robbin.php">Robbin</a>
