@@ -11,25 +11,25 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link" href="HoofdPagina.html">Home</a>
+      <a class="nav-link" href="../HoofdPagina.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Laurence.php">Laurence</a>
+      <a class="nav-link" href="Laurence.php">Laurence</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Arben.php">Arben</a>
+      <a class="nav-link" href="Arben.php">Arben</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Robbin.php">Robbin</a>
+      <a class="nav-link" href="Robbin.php">Robbin</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Damian.php">Damian</a>
+      <a class="nav-link" href="Damian.php">Damian</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="groep/Pim.php">Pim</a>
+      <a class="nav-link active" href="Pim.php">Pim</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="groep/Peter.php">Peter</a>
+      <a class="nav-link" href="Peter.php">Peter</a>
     </li>
   </ul>
 </div>
