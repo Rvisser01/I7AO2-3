@@ -1,0 +1,18 @@
+body {
+	background-color: #42f4a1;
+}
+
+header {
+	height: 20px;
+	width: 100%;
+	background-color: blue;
+	top:50px;
+	color: white;
+}
+
+footer {
+	height: 20px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+}
