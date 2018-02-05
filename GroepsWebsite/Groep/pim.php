@@ -14,7 +14,7 @@
       <a class="nav-link" href="https://aogroep3.000webhostapp.com/">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Laurence.php">Laurence</a>
+      <a class="nav-link" href="https://laurencevanderwel.000webhostapp.com/">Laurence</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Arben.php">Arben</a>
