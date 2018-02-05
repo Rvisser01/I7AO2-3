@@ -12,5 +12,5 @@
         <h2>adres: $adres</h2>
         <h2>huisnummer: $huisnummer</h2>
         <h2>plaats: $plaats</h2>
-        <h3> leeftijd: $leeftijd</h3>"
+        <h3>leeftijd: $leeftijd</h3>"
         ?>
