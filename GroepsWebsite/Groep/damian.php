@@ -24,7 +24,7 @@
       <a class="nav-link" href="https://rvisser01.000webhostapp.com/">Robbin</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="Damian.php">Damian</a>
+      <a class="nav-link active" href="https://dtrojak01.000webhostapp.com/">Damian</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Pim.php">Pim</a>
