@@ -7,7 +7,7 @@
   $volume ="$lengte*$breedte*$hoogte";
 
 echo  $oppervlakte
-      <br />
+      <br>
       $volume;
 
  ?>
