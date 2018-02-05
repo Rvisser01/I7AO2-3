@@ -2,7 +2,7 @@
 <?php
 
   $voornaam = "Arben";
-  $achternaam = "";
+  $achternaam = "h";
   $adres = "Kerkhofweg";
   $huisnummer = "43";
   $plaats = "Overdinkel";
