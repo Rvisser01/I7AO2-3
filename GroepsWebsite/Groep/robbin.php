@@ -26,7 +26,7 @@
       <a class="nav-link" href="https://dtrojak01.000webhostapp.com/">Damian</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Pim.php">Pim</a>
+      <a class="nav-link" href="https://pim-hoomans.000webhostapp.com/">Pim</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="Peter.php">Peter</a>
