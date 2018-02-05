@@ -1,8 +1,8 @@
-    <?php
+<?php
 
       $voornaam= "Laurence";
       $achternaam="Van der Wel";
-      $adres="Ravenhorsthoek";
+      $adres="Ravenhorsthoek";s
       $huisnummer="4";
       $plaats = "Enschede";
       $leeftijd = "16";
@@ -13,4 +13,4 @@
         <h2>huisnummer: $huisnummer</h2>
         <h2>plaats: $plaats</h2>
         <h3>leeftijd: $leeftijd</h3> "
-        ?>
+?>
