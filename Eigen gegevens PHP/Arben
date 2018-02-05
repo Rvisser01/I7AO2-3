@@ -1,8 +1,8 @@
 
 <?php
 
-  $voornaam = "Robbin";
-  $achternaam = "Visser";
+  $voornaam = "Arben";
+  $achternaam = "";
   $adres = "Kerkhofweg";
   $huisnummer = "43";
   $plaats = "Overdinkel";
