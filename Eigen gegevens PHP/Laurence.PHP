@@ -1,10 +1,10 @@
 <?php
 
-  $voornaam = "Robbin";
-  $achternaam = "Visser";
-  $adres = "Kerkhofweg";
-  $huisnummer = "43";
-  $plaats = "Overdinkel";
+  $voornaam = "Laurence";
+  $achternaam = "Van der Wel";
+  $adres = "Ravenhorsthoek";
+  $huisnummer = "4";
+  $plaats = "Enschede";
   $leeftijd = "16";
 
 echo "
