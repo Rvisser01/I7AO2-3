@@ -1,4 +1,4 @@
-    <?php
+<?php
 
       $voornaam= "Laurence";
       $achternaam="Van der Wel";
