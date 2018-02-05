@@ -11,25 +11,25 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link" href="../HoofdPagina.html">Home</a>
+      <a class="nav-link" href="https://aogroep3.000webhostapp.com/">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Laurence.php">Laurence</a>
+      <a class="nav-link" href="https://laurencevanderwel.000webhostapp.com/">Laurence</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="Arben.php">Arben</a>
+      <a class="nav-link active" href="https://ahajrizaj01.000webhostapp.com">Arben</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Robbin.php">Robbin</a>
+      <a class="nav-link" href="https://rvisser01.000webhostapp.com/">Robbin</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Damian.php">Damian</a>
+      <a class="nav-link" href="https://dtrojak01.000webhostapp.com/">Damian</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Pim.php">Pim</a>
+      <a class="nav-link" href="https://pim-hoomans.000webhostapp.com/">Pim</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Peter.php">Peter</a>
+      <a class="nav-link" href="https://peter-kuipers.000webhostapp.com">Peter</a>
     </li>
   </ul>
 </div>
