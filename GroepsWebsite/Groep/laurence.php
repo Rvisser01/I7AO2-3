@@ -11,7 +11,7 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link" href="../HoofdPagina.html">Home</a>
+      <a class="nav-link" href="https://aogroep3.000webhostapp.com/">Home</a>
     </li>
     <li class="nav-item">
       <a class="nav-link active" href="Laurence.php">Laurence</a>
