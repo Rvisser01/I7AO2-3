@@ -2,11 +2,11 @@
 <?php
 
   $voornaam = "Arben";
-  $achternaam = "h";
-  $adres = "Kerkhofweg";
-  $huisnummer = "43";
-  $plaats = "Overdinkel";
-  $leeftijd = "16";
+  $achternaam = "Hajrizaj";
+  $adres = "p.lastmanstraat";
+  $huisnummer = "39";
+  $plaats = "Enschede";
+  $leeftijd = "18";
 
 echo " <h1>voornaam: $voornaam</h1>
     <h1>achternaam: $achternaam</h1>
