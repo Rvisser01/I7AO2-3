@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Laurence</title>
-  </head>
-  <body>
     <?php
 
-      $voornaam = "Arben";
-      $achternaam = "h";
-      $adres = "Kerkhofweg";
-      $huisnummer = "43";
-      $plaats = "Overdinkel";
+      $voornaam = "Laurence";
+      $achternaam = "Van der Wel";
+      $adres = "Ravenhorsthoek";
+      $huisnummer = "4";
+      $plaats = "Enschede";
       $leeftijd = "16";
 
     echo " <h1>voornaam: $voornaam</h1>
@@ -19,9 +12,5 @@
         <h2>adres: $adres</h2>
         <h2>huisnummer: $huisnummer</h2>
         <h2>plaats: $plaats</h2>
-        <h3>leeftijd: $leeftijd</h3>"
+        <h3>leeftijd: $leeftijd</h3> "
     ?>
-
-
-  </body>
-</html>
