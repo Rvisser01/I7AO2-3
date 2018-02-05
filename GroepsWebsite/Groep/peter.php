@@ -29,7 +29,7 @@
       <a class="nav-link" href="https://pim-hoomans.000webhostapp.com/">Pim</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="Peter.php">Peter</a>
+      <a class="nav-link active" href="https://peter-kuipers.000webhostapp.com">Peter</a>
     </li>
   </ul>
 </div>
