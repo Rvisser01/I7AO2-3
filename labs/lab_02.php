@@ -22,8 +22,10 @@
        $Programmeren = 9.5;
        $Databases = 9.2;
        $Gemiddelde = ($Databases+$Programmeren+$Rekenen+$Engels+$Nederlands)/5;
+       $Gemiddelde = round($Gemiddelde,1);
 
        $groepsgemiddelde = ($gemiddelde + $Gemiddelde)/2;
+       $groepsgemiddelde = round($groepsgemiddelde,1);
 
        echo "<table border='1'>
             <caption>
@@ -32,7 +34,7 @@
             <thead>
             <tr>
             <th>Naam</th>
-            <th>Nederlands</th>
+            <th>Nederlands</th;
             <th>Engels</th>
             <th>Rekenen</th>
             <th>Programmeren</th>
