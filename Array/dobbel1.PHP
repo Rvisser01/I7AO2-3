@@ -3,7 +3,7 @@
 <body>
 
 <?php
-$Dobbelsteen1=array("1"=>"1","2"=>"2","3"=>"3","4"=>"4");
+$Dobbelsteen1=array("<img src=\"img/Dobbelsteen_1oog.jpg\" />","2"=>"2","3"=>"3","4"=>"4");
 print_r(array_rand($Dobbelsteen1,1));
 "<br>";
 $Dobbelsteen2=array("1"=>"1","2"=>"2","3"=>"3","4"=>"4");
