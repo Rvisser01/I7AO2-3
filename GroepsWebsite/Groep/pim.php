@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pim Hoomans </title>
+    <title>Pim Hoomans</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
@@ -11,25 +11,25 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
     <li class="nav-item">
-      <a class="nav-link" href="https://aogroep3.000webhostapp.com/">Home</a>
+      <a class="nav-link" href="HoofdPagina.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://laurencevanderwel.000webhostapp.com/">Laurence</a>
+      <a class="nav-link" href="groep/Laurence.php">Laurence</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://ahajrizaj01.000webhostapp.com">Arben</a>
+      <a class="nav-link" href="groep/Arben.php">Arben</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://rvisser01.000webhostapp.com/">Robbin</a>
+      <a class="nav-link" href="groep/Robbin.php">Robbin</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://dtrojak01.000webhostapp.com/">Damian</a>
+      <a class="nav-link" href="groep/Damian.php">Damian</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="https://pim-hoomans.000webhostapp.com/">Pim</a>
+      <a class="nav-link active" href="groep/Pim.php">Pim</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://peter-kuipers.000webhostapp.com">Peter</a>
+      <a class="nav-link" href="groep/Peter.php">Peter</a>
     </li>
   </ul>
 </div>

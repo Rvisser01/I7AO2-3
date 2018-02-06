@@ -1,8 +1,8 @@
 <?php
 
 echo <<<TEKST
-  Het verschil tussen ' en " is dat je geen " in een " zin kan verwerken.<br>
-  Want je krijgt dan error's en andersom is dat ook het geval
+  The difference between ' and " is that you can not process " and " in the same sentence<br>
+If you do so you will get error and vice versa
 
 TEKST;
 

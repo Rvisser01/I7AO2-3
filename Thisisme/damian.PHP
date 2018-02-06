@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>7t8df7</title>
   </head>
   <body>
     <?php
 
-      $voornaam = "Laurence";
-      $achternaam = "Van der Wel";
-      $adres = "Ravenhorsthoek";
-      $huisnummer = "4";
+      $voornaam = "Damian";
+      $achternaam = "Trojak";
+      $adres = "Zunabrink";
+      $huisnummer = "145";
       $plaats = "Enschede";
       $leeftijd = "16";
 
@@ -18,6 +18,6 @@
         <h1>Naam: $voornaam $achternaam</h1>
         <h2>adres: $adres $huisnummer $plaats</h2>
         <h3>leeftijd: $leeftijd</h3>"
-    ?>
-  </body>
+    ?>efsfes-0y9fuchvvoipycgh jbk
+  </body>das
 </html>
