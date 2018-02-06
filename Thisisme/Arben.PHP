@@ -16,12 +16,9 @@
 
 echo "
 <img src='img\ava.png' width='100' height='100'></img>
-<h1>voornaam: $voornaam</h1>
-    <h1>achternaam: $achternaam</h1>
-    <h2>adres: $adres</h2>
-    <h2>huisnummer: $huisnummer</h2>
-    <h2>plaats: $plaats</h2>
-    <h3>leeftijd: $leeftijd</h3>"
+<h1>Naam: $voornaam $achternaam</h1>
+<h2>adres: $adres $huisnummer $plaats</h2>
+<h3>leeftijd: $leeftijd</h3>"
 ?>
 </body>
 </html>
