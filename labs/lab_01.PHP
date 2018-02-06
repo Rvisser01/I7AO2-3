@@ -13,7 +13,8 @@
       $oppervlakte =$lengte*$breedte;
       $volume =$lengte*$breedte*$hoogte;
 
-      echo "Containeroppervlakte is: $oppervlakte". "<br>" ."Containervolume is: $volume";  ?>
+      echo "Containeroppervlakte is: $oppervlakte". "<br>" ."Containervolume is: $volume";
+      ?>
     </p>
   </body>
 </html>
