@@ -9,7 +9,7 @@
 $playslist =array (
 array("genre" => "Hiphop","auteur" => "John Williams", "Titel" => "My Girl"),
 array("genre" => "Jazz","auteur" => "John Coltrane", "Titel" => "New York"),
-array("genre" => "Hiphop","auteur" => "Shakira", "t\Titel" => "Obsession"),
+array("genre" => "Hiphop","auteur" => "Shakira", "Titel" => "Obsession"),
 array("genre" => "Latin","auteur" => "Caetano Veloso", "Titel" => "Cafe Atlantico")
 );
 
