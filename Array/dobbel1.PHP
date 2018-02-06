@@ -3,7 +3,7 @@
 <body>
 
 <?php
-$a=array("a"=>"red","b"=>"green","c"=>"blue","d"=>"yellow");
+$a=array("1"=>"1","2"=>"2","3"=>"3","4"=>"4");
 print_r(array_rand($a,1));
 ?>
 
