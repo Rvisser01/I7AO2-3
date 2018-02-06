@@ -13,7 +13,7 @@
        $rekenen = "6.7";
        $programmeren = "8.5";
        $databases = "9,4";
-       $gemiddelde = $databases+$programmeren+$rekenen+$engels+$nederlands
+       $gemiddelde = "$databases+$programmeren+$rekenen+$engels+$nederlands/5";
 
        $Naam = "Sophie";
        $Nederlands = "8.9";
@@ -21,7 +21,7 @@
        $Rekenen = "9.7";
        $Programmeren = "9.5";
        $Databases = "9,2";
-       $Gemiddelde = $Databases+$Programmeren+$Rekenen+$Engels+$Nederlands
+       $Gemiddelde = "$Databases+$Programmeren+$Rekenen+$Engels+$Nederlands/5";
 
        echo "<table border='1'>
             <caption>
