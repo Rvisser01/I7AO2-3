@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>php lab 01</title>
   </head>
   <body>
     <p>
