@@ -7,7 +7,7 @@
    <body>
      <h3>php lab 02</h3>
      <?php
-       $naam = "Karim ";
+       $naam = "Karim";
        $nederlands = 8.5;
        $engels = 7.7;
        $rekenen = 6.7;
@@ -64,7 +64,7 @@
   </tbody>
 
        <tfoot>
-        <tr><td colspan='6'>Groep gemiddeld</td>
+        <tr><td colspan='6'>Groeps gemiddelde</td>
         <td>$groepsgemiddelde</td></tr>
        </tfoot>
        </table>";
