@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
 <?php
 
   $voornaam = "Robbin";
@@ -13,3 +19,5 @@ echo "
     <h2>adres: $adres $huisnummer $plaats</h2>
     <h3>leeftijd: $leeftijd</h3>"
 ?>
+</body>
+</html>
