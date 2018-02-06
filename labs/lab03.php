@@ -7,10 +7,10 @@
    <body>
 <?php
 $playslist =array (
-array("genre" => "Hiphop","auteur" => "John Williams", "Titel" => "My Girl"),
-array("genre" => "Jazz","auteur" => "John Coltrane", "Titel" => "New York"),
-array("genre" => "Hiphop","auteur" => "Shakira", "Titel" => "Obsession"),
-array("genre" => "Latin","auteur" => "Caetano Veloso", "Titel" => "Cafe Atlantico")
+array("genre" => "Hiphop","Auteur" => "John Williams", "Titel" => "My Girl"),
+array("genre" => "Jazz","Auteur" => "John Coltrane", "Titel" => "New York"),
+array("genre" => "Hiphop","Auteur" => "Shakira", "Titel" => "Obsession"),
+array("genre" => "Latin","Auteur" => "Caetano Veloso", "Titel" => "Cafe Atlantico")
 );
 
 
