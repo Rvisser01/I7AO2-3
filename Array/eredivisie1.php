@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
     <title>Eredivisie</title>
   </head>
   <body>
-    <h1>De stand op 07-02-2018 om 12:00 uur</h1>
+    <center><h1>De stand op 07-02-2018 om 12:00 uur</h1></center>
     <?php
         $positie = array("PSV" => "1" , "Ajax" => "2" , "AZ" => "3" , "PEC Zwolle" => "4" , "Feyenoord" => "5" , "Vitesse" => "6" , "FC Utrecht" => "7" , "Heerenveen" => "8" ,  "VVV-Venlo" => "9" , "ADO Den Haag" => "10" , "Excelsior" => "11" , "Heracles" => "12" , "FC Groningen" => "13" , "Willem II" => "14" , "FC Twente" => "15" , "NAC Breda" => "16" , "Roda JC" => "17" , "Sparta Rotterdam" => "18");
         $naam = array("PSV" => "PSV" , "Ajax" => "Ajax" , "AZ" => "AZ" , "PEC Zwolle" => "PEC Zwolle" , "Feyenoord" => "Feyenoord" , "Vitesse" => "Vitesse" , "FC Utrecht" => "FC Utrecht" , "Heerenveen" => "Heerenveen" ,  "VVV-Venlo" => "VVV-Venlo" , "ADO Den Haag" => "ADO Den Haag" , "Excelsior" => "Excelsior" , "Heracles" => "Heracles" , "FC Groningen" => "FC Groningen" , "Willem II" => "Willem II" , "FC Twente" => "FC Twente" , "NAC Breda" => "NAC Breda" , "Roda JC" => "Roda JC" , "Sparta Rotterdam" => "Sparta Rotterdam");
@@ -15,15 +16,35 @@
         $gelijk = array("PSV" => "1" , "Ajax" => "3" , "AZ" => "4" , "PEC Zwolle" => "6" , "Feyenoord" => "6" , "Vitesse" => "7" , "FC Utrecht" => "8" , "Heerenveen" => "6" ,  "VVV-Venlo" => "8" , "ADO Den Haag" => "4" , "Excelsior" => "4" , "Heracles" => "6" , "FC Groningen" => "7" , "Willem II" => "5" , "FC Twente" => "4" , "NAC Breda" => "4" , "Roda JC" => "4" , "Sparta Rotterdam" => "5");
         $verloren = array("PSV" => "2" , "Ajax" => "3" , "AZ" => "4" , "PEC Zwolle" => "5" , "Feyenoord" => "5" , "Vitesse" => "5" , "FC Utrecht" => "5" , "Heerenveen" => "8" ,  "VVV-Venlo" => "6" , "ADO Den Haag" => "9" , "Excelsior" => "10" , "Heracles" => "9" , "FC Groningen" => "9" , "Willem II" => "12" , "FC Twente" => "13" , "NAC Breda" => "13" , "Roda JC" => "13" , "Sparta Rotterdam" => "13");
 
-        $FCTwente = array($voornaam, "FC Twente");
-          echo "Positie: $positie[$FCTwente]"."<br>";
-          echo "Naam: $naam[$FCTwente]"."<br>";
-          echo "Stad: $stad[$FCTwente]"."<br>";
-          echo "Gespeelde: $gespeelde[$FCTwente]"."<br>";
-          echo "Gewonnen: $gewonnen[$FCTwente]"."<br>";
-          echo "Gelijk: $gelijk[$FCTwente]"."<br>";
-          echo "Verloren: $verloren[$FCTwente]"."<br>";
 
+          $Heracles = array_search("Heracles" , $naam);
+          $FCTwente = array_search("FC Twente" , $naam);
+          echo"
+          <center>
+          <table>
+            <tr>
+              <td>Positie: $positie[$FCTwente]</td><td>Positie: $positie[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Naam: $naam[$FCTwente]</td><td>Naam: $naam[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Stad: $stad[$FCTwente]</td><td>Stad: $stad[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Gespeelde: $gespeelde[$FCTwente]</td><td>Gespeelde: $gespeelde[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Gewonnen: $gewonnen[$FCTwente]</td><td>Gewonnen: $gewonnen[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Gelijk: $gelijk[$FCTwente]</td><td>Gelijk: $gelijk[$Heracles]</td>
+            </tr>
+            <tr>
+              <td>Verloren: $verloren[$FCTwente]</td><td>Verloren: $verloren[$Heracles]</td>
+            </tr>
+          </table>
+          </center>";
        ?>
   </body>
 </html>

@@ -1,0 +1,15 @@
+td{
+  padding: 0px 50px;
+}
+
+table, th, td{
+  border: 2px solid black;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(145, 145, 145);
+}
+
+body {
+  background-color: rgb(145, 145, 145);
+}
