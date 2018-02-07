@@ -14,6 +14,17 @@
         $gewonnen = array("PSV" => "18" , "Ajax" => "15" , "AZ" => "13" , "PEC Zwolle" => "11" , "Feyenoord" => "10" , "Vitesse" => "9" , "FC Utrecht" => "8" , "Heerenveen" => "8" ,  "VVV-Venlo" => "7" , "ADO Den Haag" => "8" , "Excelsior" => "7" , "Heracles" => "6" , "FC Groningen" => "5" , "Willem II" => "4" , "FC Twente" => "4" , "NAC Breda" => "4" , "Roda JC" => "4" , "Sparta Rotterdam" => "3");
         $gelijk = array("PSV" => "1" , "Ajax" => "3" , "AZ" => "4" , "PEC Zwolle" => "6" , "Feyenoord" => "6" , "Vitesse" => "7" , "FC Utrecht" => "8" , "Heerenveen" => "6" ,  "VVV-Venlo" => "8" , "ADO Den Haag" => "4" , "Excelsior" => "4" , "Heracles" => "6" , "FC Groningen" => "7" , "Willem II" => "5" , "FC Twente" => "4" , "NAC Breda" => "4" , "Roda JC" => "4" , "Sparta Rotterdam" => "5");
         $verloren = array("PSV" => "2" , "Ajax" => "3" , "AZ" => "4" , "PEC Zwolle" => "5" , "Feyenoord" => "5" , "Vitesse" => "5" , "FC Utrecht" => "5" , "Heerenveen" => "8" ,  "VVV-Venlo" => "6" , "ADO Den Haag" => "9" , "Excelsior" => "10" , "Heracles" => "9" , "FC Groningen" => "9" , "Willem II" => "12" , "FC Twente" => "13" , "NAC Breda" => "13" , "Roda JC" => "13" , "Sparta Rotterdam" => "13");
+
+        $FCTwente = ($naam . "FC Twente");
+          echo "Positie: $positie[$FCTwente]"."<br>";
+          echo "Naam: $voornaam[$FCTwente]"."<br>";
+          echo "Stad: $achternaam[$FCTwente]"."<br>";
+          echo "Gespeelde: $woonplaats[$FCTwente]"."<br>";
+          echo "Gewonnen: $leeftijd[$FCTwente]"."<br>";
+          echo "Gelijk: $leeftijd[$FCTwente]"."<br>";
+          echo "Verloren: $leeftijd[$FCTwente]"."<br>";
+          echo "Gewonnen: $leeftijd[$FCTwente]"."<br>";
+
        ?>
   </body>
 </html>
