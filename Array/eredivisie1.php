@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <header>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
     <title>Eredivisie</title>
-  </head>
-  <body>
     <center><h1>De stand op 07-02-2018 om 12:00 uur</h1></center>
+  </header>
+  <body>
+
     <?php
         $positie = array("PSV" => "1" , "Ajax" => "2" , "AZ" => "3" , "PEC Zwolle" => "4" , "Feyenoord" => "5" , "Vitesse" => "6" , "FC Utrecht" => "7" , "Heerenveen" => "8" ,  "VVV-Venlo" => "9" , "ADO Den Haag" => "10" , "Excelsior" => "11" , "Heracles" => "12" , "FC Groningen" => "13" , "Willem II" => "14" , "FC Twente" => "15" , "NAC Breda" => "16" , "Roda JC" => "17" , "Sparta Rotterdam" => "18");
         $naam = array("PSV" => "PSV" , "Ajax" => "Ajax" , "AZ" => "AZ" , "PEC Zwolle" => "PEC Zwolle" , "Feyenoord" => "Feyenoord" , "Vitesse" => "Vitesse" , "FC Utrecht" => "FC Utrecht" , "Heerenveen" => "Heerenveen" ,  "VVV-Venlo" => "VVV-Venlo" , "ADO Den Haag" => "ADO Den Haag" , "Excelsior" => "Excelsior" , "Heracles" => "Heracles" , "FC Groningen" => "FC Groningen" , "Willem II" => "Willem II" , "FC Twente" => "FC Twente" , "NAC Breda" => "NAC Breda" , "Roda JC" => "Roda JC" , "Sparta Rotterdam" => "Sparta Rotterdam");
