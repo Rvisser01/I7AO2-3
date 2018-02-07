@@ -17,13 +17,12 @@
 
         $FCTwente = ($naam . "FC Twente");
           echo "Positie: $positie[$FCTwente]"."<br>";
-          echo "Naam: $voornaam[$FCTwente]"."<br>";
-          echo "Stad: $achternaam[$FCTwente]"."<br>";
-          echo "Gespeelde: $woonplaats[$FCTwente]"."<br>";
-          echo "Gewonnen: $leeftijd[$FCTwente]"."<br>";
-          echo "Gelijk: $leeftijd[$FCTwente]"."<br>";
-          echo "Verloren: $leeftijd[$FCTwente]"."<br>";
-          echo "Gewonnen: $leeftijd[$FCTwente]"."<br>";
+          echo "Naam: $naam[$FCTwente]"."<br>";
+          echo "Stad: $stad[$FCTwente]"."<br>";
+          echo "Gespeelde: $gespeelde[$FCTwente]"."<br>";
+          echo "Gewonnen: $gewonnen[$FCTwente]"."<br>";
+          echo "Gelijk: $gelijk[$FCTwente]"."<br>";
+          echo "Verloren: $verloren[$FCTwente]"."<br>";
 
        ?>
   </body>
