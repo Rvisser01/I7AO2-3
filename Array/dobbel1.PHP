@@ -13,7 +13,7 @@
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         global $Dobbelsteen1;
-        $randomNumber = array_rand($Dobbelsteen1 , "1");
+        $randomNumber = ($Dobbelsteen1);
         $randomImage = $Dobbelsteen1[$randomNumber];
 
         echo "<img src=\"$randomImage\" border=\"5\">";
@@ -27,7 +27,7 @@
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
          global $Dobbelsteen2;
-        $randomNumber = array_rand($Dobbelsteen2);
+        $randomNumber = ($Dobbelsteen2);
         $randomImage = $Dobbelsteen2[$randomNumber];
 
         echo "<img src=\"$randomImage\" border=\"5\">";
@@ -41,7 +41,7 @@
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         global $Dobbelsteen3;
-        $randomNumber = array_rand($Dobbelsteen3 , 1);
+        $randomNumber = ($Dobbelsteen3);
         $randomImage = $Dobbelsteen3[$randomNumber];
 
         echo "<img src=\"$randomImage\" border=\"5\">";
@@ -55,7 +55,7 @@
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         global $Dobbelsteen4;
-        $randomNumber = array_rand($Dobbelsteen4 , 1);
+        $randomNumber = ($Dobbelsteen4);
         $randomImage = $Dobbelsteen4[$randomNumber];
 
         echo "<img src=\"$randomImage\" border=\"5\">";
@@ -69,7 +69,7 @@
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         global $Dobbelsteen5;
-        $randomNumber = array_rand($Dobbelsteen5 , 1);
+        $randomNumber = ($Dobbelsteen5);
         $randomImage = $Dobbelsteen5[$randomNumber];
 
         echo "<img src=\"$randomImage\" border=\"5\">";
