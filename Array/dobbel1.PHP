@@ -9,8 +9,8 @@
     <?php
     function displayRandomPhotoArea()
     {
-        $Dobbelsteen = array("img/Dobbelsteen_1oog.jpg", "img/Dobbelsteen_2oog.jpg", "img/Dobbelsteen_3oog.jpg",
-         "img/Dobbelsteen_4oog.jpg", "img/Dobbelsteen_5oog.jpg", "img/Dobbelsteen_6oog.jpg");
+        $Dobbelsteen = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
+         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
@@ -22,8 +22,8 @@
 
     function displayRandomPhotoArea2()
     {
-        $Dobbelsteen = array("img/Dobbelsteen_1oog.jpg", "img/Dobbelsteen_2oog.jpg", "img/Dobbelsteen_3oog.jpg",
-         "img/Dobbelsteen_4oog.jpg", "img/Dobbelsteen_5oog.jpg", "img/Dobbelsteen_6oog.jpg");
+        $Dobbelsteen = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
+         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
@@ -35,8 +35,8 @@
 
     function displayRandomPhotoArea3()
     {
-        $Dobbelsteen= array("img/Dobbelsteen_1oog.jpg", "img/Dobbelsteen_2oog.jpg", "img/Dobbelsteen_3oog.jpg",
-         "img/Dobbelsteen_4oog.jpg", "img/Dobbelsteen_5oog.jpg", "img/Dobbelsteen_6oog.jpg");
+        $Dobbelsteen= array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
+         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
@@ -48,8 +48,8 @@
 
     function displayRandomPhotoArea4()
     {
-        $Dobbelsteen= array("img/Dobbelsteen_1oog.jpg", "img/Dobbelsteen_2oog.jpg", "img/Dobbelsteen_3oog.jpg",
-         "img/Dobbelsteen_4oog.jpg", "img/Dobbelsteen_5oog.jpg", "img/Dobbelsteen_6oog.jpg");
+        $Dobbelsteen= array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
+         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
@@ -61,8 +61,8 @@
 
     function displayRandomPhotoArea5()
     {
-        $Dobbelsteen= array("img/Dobbelsteen_1oog.jpg", "img/Dobbelsteen_2oog.jpg", "img/Dobbelsteen_3oog.jpg",
-         "img/Dobbelsteen_4oog.jpg", "img/Dobbelsteen_5oog.jpg", "img/Dobbelsteen_6oog.jpg");
+        $Dobbelsteen= array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
+         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
