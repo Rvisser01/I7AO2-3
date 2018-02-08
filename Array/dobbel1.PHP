@@ -76,6 +76,9 @@
     }
 
     displayRandomPhotoArea5();
+
+    $Totaal = ($Dobbelsteen1 + $Dobbelsteen2 + $Dobbelsteen3 + $Dobbelsteen4 + $Dobbelsteen5);
+    echo "$Totaal";
     ?>
     <br />
     <center>
