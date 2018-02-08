@@ -12,6 +12,7 @@
         $Dobbelsteen = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
          "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
+        global
         $randomNumber = array_rand($Dobbelsteen);
         $randomImage = $Dobbelsteen[$randomNumber];
 
