@@ -6,15 +6,16 @@
    </head>
    <body>
 <?php
-function myfunction($value,$key)
-{echo
 
-$playslist =array (
-array("genre" => "Hiphop","Auteur" => "John Williams", "Titel" => "My Girl"),
-array("genre" => "Jazz","Auteur" => "John Coltrane", "Titel" => "New York"),
-array("genre" => "Hiphop","Auteur" => "Shakira", "Titel" => "Obsession")
-array_walk_recursive($playslist,"myfunction");
-}
+$playslist = array (
+$a = array("genre" => "Hiphop","Auteur" => "John Williams", "Titel" => "My Girl"),
+$b = array("genre" => "Jazz","Auteur" => "John Coltrane", "Titel" => "New York"),
+$c = array("genre" => "Hiphop","Auteur" => "Shakira", "Titel" => "Obsession"),
+$d = array("genre" => "Latin","Auteur" => "Caetano", "Titel" => "Cafe Atlantico")
 
+echo"
+<center>
+array_push($a, "genre", "Auteur", "Titel");
+</center>";
  ?>
 </html>
