@@ -1,94 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dobbelsteen</title>
-  </head>
-  <body>
+	<head>
+		<title>Dobbel Opdracht 1</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<input type="submit" name="dobbel" value="Dobbel">
+		</form>
+		<?php
+    $array = array();
+			if(isset($_POST['dobbel'])){
 
-    <?php
-    function displayRandomPhotoArea()
-    {
-        $Dobbelsteen1 = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
-         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
 
-        global $Dobbelsteen1;
-        $randomNumber = ($Dobbelsteen1);
-        $randomImage = $Dobbelsteen1[$randomNumber];
+				for($x = 0; $x < 5; $x++){
+					array_push($array,rand(1,6));
+				}
+			}
+		?>
+		<hr>
+		<?php
+			$totaal = 0;
 
-        echo "<img src=\"$randomImage\" border=\"5\">";
-    }
+			echo '<p>Dobbels Gegooid: ';
 
-    displayRandomPhotoArea();
+			foreach($array as $worp){
+				echo '<b>'.$worp.'</b> ';
+				$totaal = $totaal + $worp;
+			}
 
-    function displayRandomPhotoArea2()
-    {
-        $Dobbelsteen2 = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
-         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
-
-         global $Dobbelsteen2;
-        $randomNumber = ($Dobbelsteen2);
-        $randomImage = $Dobbelsteen2[$randomNumber];
-
-        echo "<img src=\"$randomImage\" border=\"5\">";
-    }
-
-    displayRandomPhotoArea2();
-
-    function displayRandomPhotoArea3()
-    {
-        $Dobbelsteen3 = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
-         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
-
-        $randomNumber = ($Dobbelsteen3);
-        $randomImage = $Dobbelsteen3[$randomNumber];
-        global $Dobbelsteen3;
-
-        echo "<img src=\"$randomImage\" border=\"5\">";
-    }
-
-    displayRandomPhotoArea3();
-
-    function displayRandomPhotoArea4()
-    {
-        $Dobbelsteen4 = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
-         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
-
-        $randomNumber = ($Dobbelsteen4);
-        $randomImage = $Dobbelsteen4[$randomNumber];
-        global $Dobbelsteen4;
-
-        echo "<img src=\"$randomImage\" border=\"5\">";
-    }
-
-    displayRandomPhotoArea4();
-
-    function displayRandomPhotoArea5()
-    {
-        $Dobbelsteen5 = array("1" => "img/Dobbelsteen_1oog.jpg","2" => "img/Dobbelsteen_2oog.jpg","3" => "img/Dobbelsteen_3oog.jpg",
-         "4" => "img/Dobbelsteen_4oog.jpg","5" => "img/Dobbelsteen_5oog.jpg","6" => "img/Dobbelsteen_6oog.jpg");
-
-        $randomNumber=array_rand($Dobbelsteen5);
-        $randomImage = $Dobbelsteen5[$randomNumber];
-        global $Dobbelsteen5;
-
-        echo "<img src=\"$randomImage\" border=\"5\">";
-    }
-
-    displayRandomPhotoArea5();
-
-    $Totaal = ($Dobbelsteen1 + $Dobbelsteen2 + $Dobbelsteen3 + $Dobbelsteen4 + $Dobbelsteen5);
-    echo "$Totaal";
-    ?>
-    <br />
-    <center>
-      <button onclick="myFunction()"  width="300" height="300">Dobbel</button>
-
-      <script>
-      function myFunction() {
-          location.reload();
-      }
-      </script>
-    </center>
-  </body>
+			echo 'totaal: <b>'.$totaal.'</b></p>';
+		?>
+	</body>
 </html>
