@@ -19,7 +19,7 @@
     <?php
 
     if (isset($_POST['button'])) {
-j
+      
         $kleuren = array('ruiten', 'harten', 'klaveren', 'schoppen');
         $waarden = array('vrouw', 'heer', 'boer', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1');
 
