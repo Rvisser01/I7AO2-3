@@ -17,7 +17,7 @@
 				}
 			}
 		?>
-		<hr>
+		<hr>er
 		<?php
 			$totaal = 0;
 
