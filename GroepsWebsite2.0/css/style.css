@@ -1,0 +1,76 @@
+* {
+  padding:0px;
+  margin:0px 0px 0px 0px;
+}
+
+
+
+
+.button {
+  width: 130px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #007bff;
+}
+.card-img-left{
+  height: 200px
+  width: 200px;
+}
+
+#pica {
+  width: 286px;
+  height: 286px;
+}
+
+.menu li {
+    float: left;
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: rgb(153, 153, 153);
+}
+
+.active {
+    background-color: rgb(191, 191, 191);
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    height: 580px;
+    background-color: #eee;
+    z-index: 5;
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
