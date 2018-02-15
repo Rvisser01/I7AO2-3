@@ -34,8 +34,8 @@
   </ul>
 </div>
 <div class="vertical-menu">
-  <a href="">Weekdagen.html</a>
-  <a href="#">NLVlag.html</a>
+  <a href="../../WeekHTML/week.html">Weekdagen.html</a>
+  <a href="../../VlagHTML/Vlag.html">NLVlag.html</a>
   <a href="#">Weekdagen.php</a>
   <a href="#">NLVlag.php</a>
   <a href="#">thisisme.php</a>
