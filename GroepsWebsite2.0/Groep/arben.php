@@ -36,9 +36,9 @@
 <div class="vertical-menu">
   <a href="../../WeekHTML/week.html">Weekdagen.html</a>
   <a href="../../VlagHTML/Vlag.html">NLVlag.html</a>
-  <a href="#">Weekdagen.php</a>
-  <a href="#">NLVlag.php</a>
-  <a href="#">thisisme.php</a>
+  <a href="../../VlagHTML/Vlag.html">Weekdagen.php</a>
+  <a href="../../VlagPHP/Vlag.php">NLVlag.php</a>
+  <a href="../../Variables/Arben.php">thisisme.php</a>
   <a href="#">quotes.php</a>
   <a href="#">scope.php</a>
   <a href="#">Lab01</a>
