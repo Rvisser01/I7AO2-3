@@ -20,5 +20,5 @@
         <h2>adres: $adres $huisnummer $plaats</h2>
         <h3>leeftijd: $leeftijd</h3>"
     ?>
-  </body>das
+  </body>
 </html>
