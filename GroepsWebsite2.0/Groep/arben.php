@@ -38,6 +38,17 @@
   <a href="#">NLVlag.html</a>
   <a href="#">Weekdagen.php</a>
   <a href="#">NLVlag.php</a>
+  <a href="#">thisisme.php</a>
+  <a href="#">quotes.php</a>
+  <a href="#">scope.php</a>
+  <a href="#">Lab01</a>
+  <a href="#">Lab02</a>
+  <a href="#">compare.php</a>
+  <a href="#">operators.php</a>
+  <a href="#">moreoperators.php</a>
+  <a href="#">dobbel1.php</a>
+  <a href="#">kaartspel1.php</a>
+  <a href="#">onzegroep.php</a>
 </div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
