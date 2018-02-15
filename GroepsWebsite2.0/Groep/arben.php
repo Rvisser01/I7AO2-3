@@ -33,6 +33,11 @@
     </li>
   </ul>
 </div>
+<div class="vertical-menu">
+  <a href="#">Doorstroomdossier</a>
+  <a href="#">Stagebedrijven</a>
+  <a href="#">Docenten info</a>
+</div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="../img/Arben.jpg" alt="Card image cap">
@@ -41,80 +46,6 @@
           <p class="card-text">Naam: Arben <br>Klas: I7AO2<br> Leeftijd : 18 </p>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <div class="card">
-
-            <div class="card-body">
-              <h3 class="card-title">Sprint 0</h3>
-              <p class="card-text">
-                <div class="card-block">
-                  <a href="#" class="btn btn-primary button">VlagPHP</a>
-                  <div class="card-block">
-                    <br>
-                    <a href="#" class="btn btn-primary button">WeekPHP</a>
-                  </div>
-                  </div>
-                  </div>
-
-    </div>
-    </div>
-    <div class="col-sm">
-      <div class="card">
-
-        <div class="card-body">
-          <h3 class="card-title">Sprint 1</h3>
-          <p class="card-text">
-            <div class="card-block">
-              <a href="#" class="btn btn-primary button">Thisisme</a>
-              <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">Quotes</a>
-                <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">Scope</a>
-                <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">Compare</a>
-                <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">Operators</a>
-                <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">Moreoperators</a>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-        </div>
-    </div>
-    <div class="col-sm">
-      <div class="card">
-
-        <div class="card-body">
-          <h3 class="card-title">Sprint 2</h3>
-          <p class="card-text">
-            <div class="card-block">
-              <a href="#" class="btn btn-primary button">VlagPHP</a>
-              <div class="card-block">
-                <br>
-                <a href="#" class="btn btn-primary button">WeekPHP</a>
-                <div class="card-block">
-                  <br>
-                  <a href="#" class="btn btn-primary button">WeekPHP</a>
-                </div>
-              </div>
-              </div>
-              </div>
-        </div>
-    </div>
-    </div>
     </div>
           </div>
         </div>
