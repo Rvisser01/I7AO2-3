@@ -34,9 +34,10 @@
   </ul>
 </div>
 <div class="vertical-menu">
-  <a href="#">Doorstroomdossier</a>
-  <a href="#">Stagebedrijven</a>
-  <a href="#">Docenten info</a>
+  <a href="#">Weekdagen.html</a>
+  <a href="#">NLVlag.html</a>
+  <a href="#">Weekdagen.php</a>
+  <a href="#">NLVlag.php</a>
 </div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
