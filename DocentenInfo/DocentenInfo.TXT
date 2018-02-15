@@ -10,14 +10,14 @@
 10-Wat vindt je het moeilijkste aan les geven?
 11-in welke programeer taal bent u gespecialiseerd?
 
-1-
-2-
-3-
-4-
-5-
-6-
-7-
-8-
-9-
-10-
-11-
+1-denekamp
+2-55
+3-hardlopen-tennisen-wielerene-voetballen
+4-jarenlang gefietst nu met auto + fiets
+5-een firma instaltie bereau met vader
+6-alleen ao
+7-progammeren
+8-pedagogische technische hoge school hts hoge beroepsonderwijs een docenten opleiding. bedrijfskunde. onderwijskunde
+9-samen met studenten problemen oplossen
+10-op het moment dat studenten niet geintresseerd zijn
+11-c++ en C#
