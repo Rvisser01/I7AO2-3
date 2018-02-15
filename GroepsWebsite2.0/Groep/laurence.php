@@ -33,6 +33,25 @@
     </li>
   </ul>
 </div>
+<div class="vertical-menu">
+  <a href="../../WeekHTML/week.html">Weekdagen.html</a>
+  <a href="../../VlagHTML/Vlag.html">NLVlag.html</a>
+  <a href="../../WeekPHP/Weekdagen.php">Weekdagen.php</a>
+  <a href="../../VlagPHP/Vlag.php">NLVlag.php</a>
+  <a href="../../Variables/laurence.PHP">thisisme.php</a>
+  <a href="../../Variables/quotes.php">quotes.php</a>
+  <a href="../../Variables/scope.php">scope.php</a>
+  <a href="../../labs/lab_01.php">Lab01</a>
+  <a href="../../labs/lab_02.php">Lab02</a>
+  <a href="../../labs/lab_03.php">Lab03</a>
+  <a href="../../operators/compare.php">compare.php</a>
+  <a href="../../operators/operators.php">operators.php</a>
+  <a href="../../operators/moreoperators.php">moreoperators.php</a>
+  <a href="../../Array/dobbel1.PHP">dobbel1.php</a>
+  <a href="../../Array/eredivisie1.PHP">eredivisie.php</a>
+  <a href="../../Array/kaartspel1.PHP">kaartspel1.php</a>
+  <a href="../../Array/onzegroep.PHP">onzegroep.php</a>
+</div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="../img/Laurence.png" alt="Card image cap">
