@@ -34,7 +34,7 @@
   </ul>
 </div>
 <div class="vertical-menu">
-  <a href="#">Weekdagen.html</a>
+  <a href="">Weekdagen.html</a>
   <a href="#">NLVlag.html</a>
   <a href="#">Weekdagen.php</a>
   <a href="#">NLVlag.php</a>
