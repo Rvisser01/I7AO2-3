@@ -49,9 +49,6 @@
   <a href="#">dobbel1.php</a>
   <a href="#">kaartspel1.php</a>
   <a href="#">onzegroep.php</a>
-  <a href="#">Stagebedrijf</a>
-  <a href="#">Docenten Info</a>
-  <a href="#">HBO</a>
 </div>
     <div class="mx-auto" style="width: 288px;">
       <div class="card" style="width: 18rem;">
