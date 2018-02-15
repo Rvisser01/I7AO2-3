@@ -38,7 +38,7 @@
   <a href="../../VlagHTML/Vlag.html">NLVlag.html</a>
   <a href="../../WeekPHP/Weekdagen.php">Weekdagen.php</a>
   <a href="../../VlagPHP/Vlag.php">NLVlag.php</a>
-  <a href="../../Variables/robbin.PHP">thisisme.php</a>
+  <a href="../../Variables/thisisme.PHP">thisisme.php</a>
   <a href="../../Variables/quotes.php">quotes.php</a>
   <a href="../../Variables/scope.php">scope.php</a>
   <a href="../../labs/lab_01.php">Lab01</a>
