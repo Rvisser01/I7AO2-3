@@ -1,3 +1,4 @@
+Wargers
 <strong>Waar woon je?</strong> - Denekamp
 <strong>Hoe oud ben je?</strong> - 55
 <strong>welke hobby's heb je?</strong> - hardlopen, tennissen, wielrennen en voetballen
@@ -9,16 +10,15 @@
 <strong>Wat vindt je het leukst aan les geven?</strong> - samen met studenten problemen oplossen
 <strong>Wat vindt je het moeilijkste aan les geven?</strong> - op het moment dat studenten niet geïnteresseerd zijn
 <strong>in welke programeer taal bent u gespecialiseerd?</strong> - C++ en C#
-
-1-denekamp
-2-55
-3-hardlopen-tennisen-wielerene-voetballen
-4-jarenlang gefietst nu met auto + fiets
-5-een firma instaltie bereau met vader
-6-alleen ao
-7-progammeren
-8-pedagogische technische hoge school hts hoge beroepsonderwijs een docenten opleiding. bedrijfskunde. onderwijskunde
-9-samen met studenten problemen oplossen
-10-op het moment dat studenten niet geintresseerd zijn
-11-c++ en C#
-<strong>
+???
+<strong>Waar woon je?</strong> - 
+<strong>Hoe oud ben je?</strong> -
+<strong>welke hobby's heb je?</strong> -
+<strong>Met welk vervoersmiddel kom je op school?</strong> -
+<strong>Wat deed je voordat je les gaf?</strong> -
+<strong>In welke vakken geef je allemaal les?</strong> -
+<strong>Welk vak vindt je leukste om les in te geven?</strong> -
+<strong>Welke opleiding deed je vroeger?</strong> -
+<strong>Wat vindt je het leukst aan les geven?</strong> -
+<strong>Wat vindt je het moeilijkste aan les geven?</strong> -
+<strong>in welke programeer taal bent u gespecialiseerd?</strong> -
