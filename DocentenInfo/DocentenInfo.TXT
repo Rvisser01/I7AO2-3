@@ -1,14 +1,14 @@
-1-Waar woon je?
-2-Hoe oud ben je?
-3-welke hobby's heb je?
-4-Met welk vervoersmiddel kom je op school?
-5-Wat deed je voordat je les gaf?
-6-In welke vakken geef je allemaal les?
-7-Welk vak vindt je leukste om les in te geven?
-8-Welke opleiding deed je vroeger?
-9-Wat vindt je het leukst aan les geven?
-10-Wat vindt je het moeilijkste aan les geven?
-11-in welke programeer taal bent u gespecialiseerd?
+<strong>Waar woon je?</strong> - Denekamp
+<strong>Hoe oud ben je?</strong> - 55
+<strong>welke hobby's heb je?</strong> - hardlopen, tennissen, wielrennen en voetballen
+<strong>Met welk vervoersmiddel kom je op school?</strong> - met de auto en de fiets
+<strong>Wat deed je voordat je les gaf?</strong> - een firma installatie bureau met vader
+<strong>In welke vakken geef je allemaal les?</strong> - alleen programmeren
+<strong>Welk vak vindt je leukste om les in te geven?</strong> - programmeren
+<strong>Welke opleiding deed je vroeger?</strong> - pedagogische technische hoge school, hts hoge beroepsonderwijs, een docenten opleiding, bedrijfskunde en onderwijskunde
+<strong>Wat vindt je het leukst aan les geven?</strong> - samen met studenten problemen oplossen
+<strong>Wat vindt je het moeilijkste aan les geven?</strong> - op het moment dat studenten niet geïnteresseerd zijn
+<strong>in welke programeer taal bent u gespecialiseerd?</strong> - C++ en C#
 
 1-denekamp
 2-55
@@ -21,3 +21,4 @@
 9-samen met studenten problemen oplossen
 10-op het moment dat studenten niet geintresseerd zijn
 11-c++ en C#
+<strong>
