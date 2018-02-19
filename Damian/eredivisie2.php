@@ -52,12 +52,16 @@
               <td>Stad: $stad[$NacBreda]</td><td>Stad: $stad[$FCTwente]</td><td>Stad: $stad[$RodaJC]</td><td>Stad: $stad[$SpartaRotterdam]</td>
             </tr>
             <tr>
-            <td>Gespeelde: $gespeelde[$PSV]</td><td>Gespeelde: $gespeelde[$Ajax]</td><td>Gespeelde: $gespeelde[$AZ]</td><td>Gespeelde: $gespeelde[$Feyenoord]</td><td>Gespeelde: $gespeelde[$FCUtrecht]</td><td>Gespeelde: $gespeelde[$PECZwolle]</td><td>Gespeelde: $gespeelde[$Vitesse]</td><td>Gespeelde: $gespeelde[$ADODenHaag]</td><td>Gespeelde: $gespeelde[$Heerenveen]</td><br /><td>Gespeelde: $gespeelde[$VVVVenlo]</td><td>Gespeelde: $gespeelde[$Excelsior]</td>
-            <td>Gespeelde: $gespeelde[$Heracles]</td><td>Gespeelde: $gespeelde[$FCGroningen]</td><td>Gespeelde: $gespeelde[$WillemII]</td><td>Gespeelde: $gespeelde[$NacBreda]</td><td>Gespeelde: $gespeelde[$FCTwente]</td><td>Gespeelde: $gespeelde[$RodaJC]</td><td>Gespeelde: $gespeelde[$SpartaRotterdam]</td>
+            <td>Gespeelde: $gespeelde[$PSV]</td><td>Gespeelde: $gespeelde[$Ajax]</td><td>Gespeelde: $gespeelde[$AZ]</td><td>Gespeelde: $gespeelde[$Feyenoord]</td><td>Gespeelde: $gespeelde[$FCUtrecht]</td><td>Gespeelde: $gespeelde[$PECZwolle]</td><td>Gespeelde: $gespeelde[$Vitesse]</td><td>Gespeelde: $gespeelde[$ADODenHaag]</td><td>Gespeelde: $gespeelde[$Heerenveen]</td>
             </tr>
             <tr>
-            <td>Gewonnen: $gewonnen[$PSV]</td><td>Gewonnen: $gewonnen[$Ajax]</td><td>Gewonnen: $gewonnen[$AZ]</td><td>Gewonnen: $gewonnen[$Feyenoord]</td><td>Gewonnen: $gewonnen[$FCUtrecht]</td><td>Gewonnen: $gewonnen[$PECZwolle]</td><td>Gewonnen: $gewonnen[$Vitesse]</td><td>Gewonnen: $gewonnen[$ADODenHaag]</td><td>Gewonnen: $gewonnen[$Heerenveen]</td><br /><td>Gewonnen: $gewonnen[$VVVVenlo]</td><td>Gewonnen: $gewonnen[$Excelsior]</td><td>Gewonnen: $gewonnen[$Heracles]</td>
-            <td>Gewonnen: $gewonnen[$FCGroningen]</td><td>Gewonnen: $gewonnen[$WillemII]</td><td>Gewonnen: $gewonnen[$NacBreda]</td><td>Gewonnen: $gewonnen[$FCTwente]</td><td>Gewonnen: $gewonnen[$RodaJC]</td><td>Gewonnen: $gewonnen[$SpartaRotterdam]</td>
+            <td>Gespeelde: $gespeelde[$VVVVenlo]</td><td>Gespeelde: $gespeelde[$Excelsior]</td><td>Gespeelde: $gespeelde[$Heracles]</td><td>Gespeelde: $gespeelde[$FCGroningen]</td><td>Gespeelde: $gespeelde[$WillemII]</td><td>Gespeelde: $gespeelde[$NacBreda]</td><td>Gespeelde: $gespeelde[$FCTwente]</td><td>Gespeelde: $gespeelde[$RodaJC]</td><td>Gespeelde: $gespeelde[$SpartaRotterdam]</td>
+            </tr>
+            <tr>
+            <td>Gewonnen: $gewonnen[$PSV]</td><td>Gewonnen: $gewonnen[$Ajax]</td><td>Gewonnen: $gewonnen[$AZ]</td><td>Gewonnen: $gewonnen[$Feyenoord]</td><td>Gewonnen: $gewonnen[$FCUtrecht]</td><td>Gewonnen: $gewonnen[$PECZwolle]</td><td>Gewonnen: $gewonnen[$Vitesse]</td><td>Gewonnen: $gewonnen[$ADODenHaag]</td><td>Gewonnen: $gewonnen[$Heerenveen]</td>
+            </tr>
+            <tr>
+            <td>Gewonnen: $gewonnen[$VVVVenlo]</td><td>Gewonnen: $gewonnen[$Excelsior]</td><td>Gewonnen: $gewonnen[$Heracles]</td><td>Gewonnen: $gewonnen[$FCGroningen]</td><td>Gewonnen: $gewonnen[$WillemII]</td><td>Gewonnen: $gewonnen[$NacBreda]</td><td>Gewonnen: $gewonnen[$FCTwente]</td><td>Gewonnen: $gewonnen[$RodaJC]</td><td>Gewonnen: $gewonnen[$SpartaRotterdam]</td>
             </tr>
             <tr>
             <td>Gelijk: $Gelijk[$PSV]</td><td>Gelijk: $Gelijk[$Ajax]</td><td>Gelijk: $Gelijk[$AZ]</td><td>Gelijk: $Gelijk[$Feyenoord]</td><td>Gelijk: $Gelijk[$FCUtrecht]</td><td>Gelijk: $Gelijk[$PECZwolle]</td><td>Gelijk: $Gelijk[$Vitesse]</td><td>Gelijk: $Gelijk[$ADODenHaag]</td><td>Gelijk: $Gelijk[$Heerenveen]</td><br /><td>Gelijk: $Gelijk[$VVVVenlo]</td><td>Gelijk: $Gelijk[$Excelsior]</td><td>Gelijk: $Gelijk[$Heracles]</td><td>Gelijk: $Gelijk[$FCGroningen]</td><td>Gelijk: $Gelijk[$WillemII]</td>
