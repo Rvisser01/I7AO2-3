@@ -44,6 +44,15 @@
             </tr>
             <tr>
               <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td>
+<<<<<<< HEAD
+=======
+              <td>Positie: $positie[$PSV]</td><td>Positie: $positie[$Ajax]</td><td>Positie: $positie[$AZ]</td><td>Positie: $positie[$Feyenoord]</td><td>Positie: $positie[$FCUtrecht]</td><td>Positie: $positie[$PECZwolle]</td><td>Positie: $positie[$Vitesse]</td><td>Positie: $positie[$ADODenHaag]</td><td>Positie: $positie[$Heerenveen]</td><td>Positie: $positie[$VVVVenlo]</td><td>Positie: $positie[$Excelsior]</td><td>Positie: $positie[$Heracles]</td>
+              <td>Positie: $positie[$FCGroningen]</td><td>Positie: $positie[$WillemII]</td><td>Positie: $positie[$NacBreda]</td><td>Positie: $positie[$FCTwente]</td><td>Positie: $positie[$RodaJC]</td><td>Positie: $positie[$SpartaRotterdam]</td>
+            </tr>
+            <tr>
+              <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td><td>Naam: $naam[$VVVVenlo]</td><td>Naam: $naam[$Excelsior]</td><td>Naam: $naam[$Heracles]</td><td>Naam: $naam[$FCGroningen]</td><td>Naam: $naam[$WillemII]</td><td>Naam: $naam[$NacBreda]</td>
+              <td>Naam: $naam[$FCTwente]</td><td>Naam: $naam[$RodaJC]</td><td>Naam: $naam[$SpartaRotterdam]</td>
+>>>>>>> f33b3236b41f133ca2c25e8da5c1bcc407e17b91
             </tr>
             <tr>
               <td>Stad: $stad[$PSV]</td><td>Stad: $stad[$Ajax]</td><td>Stad: $stad[$AZ]</td><td>Stad: $stad[$Feyenoord]</td><td>Stad: $stad[$FCUtrecht]</td><td>Stad: $stad[$PECZwolle]</td><td>Stad: $stad[$Vitesse]</td><td>Stad: $stad[$ADODenHaag]</td><td>Stad: $stad[$Heerenveen]</td>
@@ -61,6 +70,7 @@
             <td>Verloren: $verloren[$PSV]</td><td>Verloren: $verloren[$Ajax]</td><td>Verloren: $verloren[$AZ]</td><td>Verloren: $verloren[$Feyenoord]</td><td>Verloren: $verloren[$FCUtrecht]</td><td>Verloren: $verloren[$PECZwolle]</td><td>Verloren: $verloren[$Vitesse]</td><td>Verloren: $verloren[$ADODenHaag]</td><td>Verloren: $verloren[$Heerenveen]</td>
             </tr>
           </table>
+          <br>
           <table>
           <tr>
             <td>Positie: $positie[$VVVVenlo]</td><td>Positie: $positie[$Excelsior]</td><td>Positie: $positie[$Heracles]</td><td>Positie: $positie[$FCGroningen]</td><td>Positie: $positie[$WillemII]</td><td>Positie: $positie[$NacBreda]</td><td>Positie: $positie[$FCTwente]</td><td>Positie: $positie[$RodaJC]</td><td>Positie: $positie[$SpartaRotterdam]</td>
