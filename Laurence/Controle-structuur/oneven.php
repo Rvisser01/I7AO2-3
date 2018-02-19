@@ -11,7 +11,7 @@
       for ($i = 1; $i <= 100; $i++)
       {
         if($i % 2 == 0){ continue; }
-        $oneven .= $i. "<br>";
+        $oneven .= $i.';';
       }
 
       echo $oneven;
