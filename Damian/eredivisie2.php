@@ -44,9 +44,7 @@
             </tr>
             <tr>
               <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td>
-              <td>Positie: $positie[$PSV]</td><td>Positie: $positie[$Ajax]</td><td>Positie: $positie[$AZ]</td><td>Positie: $positie[$Feyenoord]</td><td>Positie: $positie[$FCUtrecht]</td><td>Positie: $positie[$PECZwolle]</td><td>Positie: $positie[$Vitesse]</td><td>Positie: $positie[$ADODenHaag]</td><td>Positie: $positie[$Heerenveen]</td><td>Positie: $positie[$VVVVenlo]</td><td>Positie: $positie[$Excelsior]</td><td>Positie: $positie[$Heracles]</td>
-              <td>Positie: $positie[$FCGroningen]</td><td>Positie: $positie[$WillemII]</td><td>Positie: $positie[$NacBreda]</td><td>Positie: $positie[$FCTwente]</td><td>Positie: $positie[$RodaJC]</td><td>Positie: $positie[$SpartaRotterdam]</td>
-            </tr>
+              
             <tr>
               <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td><td>Naam: $naam[$VVVVenlo]</td><td>Naam: $naam[$Excelsior]</td><td>Naam: $naam[$Heracles]</td><td>Naam: $naam[$FCGroningen]</td><td>Naam: $naam[$WillemII]</td><td>Naam: $naam[$NacBreda]</td>
               <td>Naam: $naam[$FCTwente]</td><td>Naam: $naam[$RodaJC]</td><td>Naam: $naam[$SpartaRotterdam]</td>
