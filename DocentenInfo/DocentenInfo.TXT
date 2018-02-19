@@ -1,23 +1,24 @@
-1-Waar woon je?
-2-Hoe oud ben je?
-3-welke hobby's heb je?
-4-Met welk vervoersmiddel kom je op school?
-5-Wat deed je voordat je les gaf?
-6-In welke vakken geef je allemaal les?
-7-Welk vak vindt je leukste om les in te geven?
-8-Welke opleiding deed je vroeger?
-9-Wat vindt je het leukst aan les geven?
-10-Wat vindt je het moeilijkste aan les geven?
-11-in welke programeer taal bent u gespecialiseerd?
-
-1-denekamp
-2-55
-3-hardlopen-tennisen-wielerene-voetballen
-4-jarenlang gefietst nu met auto + fiets
-5-een firma instaltie bereau met vader
-6-alleen ao
-7-progammeren
-8-pedagogische technische hoge school hts hoge beroepsonderwijs een docenten opleiding. bedrijfskunde. onderwijskunde
-9-samen met studenten problemen oplossen
-10-op het moment dat studenten niet geintresseerd zijn
-11-c++ en C#
+Wargers
+<strong>Waar woon je?</strong> - Denekamp
+<strong>Hoe oud ben je?</strong> - 55
+<strong>welke hobby's heb je?</strong> - hardlopen, tennissen, wielrennen en voetballen
+<strong>Met welk vervoersmiddel kom je op school?</strong> - met de auto en de fiets
+<strong>Wat deed je voordat je les gaf?</strong> - een firma installatie bureau met vader
+<strong>In welke vakken geef je allemaal les?</strong> - alleen programmeren
+<strong>Welk vak vindt je leukste om les in te geven?</strong> - programmeren
+<strong>Welke opleiding deed je vroeger?</strong> - pedagogische technische hoge school, hts hoge beroepsonderwijs, een docenten opleiding, bedrijfskunde en onderwijskunde
+<strong>Wat vindt je het leukst aan les geven?</strong> - samen met studenten problemen oplossen
+<strong>Wat vindt je het moeilijkste aan les geven?</strong> - op het moment dat studenten niet geïnteresseerd zijn
+<strong>in welke programeer taal bent u gespecialiseerd?</strong> - C++ en C#
+???
+<strong>Waar woon je?</strong> - Hengelo
+<strong>Hoe oud ben je?</strong> - n.v.t.
+<strong>welke hobby's heb je?</strong> - Computeren, sport kijken
+<strong>Met welk vervoersmiddel kom je op school?</strong> - Fiets, soms lopen
+<strong>Wat deed je voordat je les gaf?</strong> - ICT manager
+<strong>In welke vakken geef je allemaal les?</strong> - Database,keuzedelen,projectmanagment,linux,html-css,datacom
+<strong>Welk vak vindt je leukste om les in te geven?</strong> - Database en project managment
+<strong>Welke opleiding deed je vroeger?</strong> - Economisch adminastieve opleiding
+<strong>Wat vindt je het leukst aan les geven?</strong> - Het overbrengen van kennis
+<strong>Wat vindt je het moeilijkste aan les geven?</strong> - Niks
+<strong>in welke programeer taal bent u gespecialiseerd?</strong> - Geen (html,css)
