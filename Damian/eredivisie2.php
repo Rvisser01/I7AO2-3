@@ -44,10 +44,6 @@
             </tr>
             <tr>
               <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td>
-
-            <tr>
-              <td>Naam: $naam[$PSV]</td><td>Naam: $naam[$Ajax]</td><td>Naam: $naam[$AZ]</td><td>Naam: $naam[$Feyenoord]</td><td>Naam: $naam[$FCUtrecht]</td><td>Naam: $naam[$PECZwolle]</td><td>Naam: $naam[$Vitesse]</td><td>Naam: $naam[$ADODenHaag]</td><td>Naam: $naam[$Heerenveen]</td>
-            </tr>
             <tr>
               <td>Stad: $stad[$PSV]</td><td>Stad: $stad[$Ajax]</td><td>Stad: $stad[$AZ]</td><td>Stad: $stad[$Feyenoord]</td><td>Stad: $stad[$FCUtrecht]</td><td>Stad: $stad[$PECZwolle]</td><td>Stad: $stad[$Vitesse]</td><td>Stad: $stad[$ADODenHaag]</td><td>Stad: $stad[$Heerenveen]</td>
             </tr>
