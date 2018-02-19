@@ -14,7 +14,7 @@
         $oneven .= $i. "<br>";
       }
 
-echo $var;
+echo $oneven;
 
      ?>
   </body>
