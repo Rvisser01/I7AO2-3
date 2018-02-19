@@ -32,7 +32,7 @@
           $Heracles = array_search("Heracles" , $naam);
           $FCGroningen = array_search("FC Groningen" , $naam);
           $WillemII = array_search("Willem II" , $naam);
-          $NacBreda = array_search("Nac Breda" , $naam);
+          $NacBreda = array_search("NAC Breda" , $naam);
           $FCTwente = array_search("FC Twente" , $naam);
           $RodaJC = array_search("Roda JC" , $naam);
           $SpartaRotterdam = array_search("Sparta Rotterdam" , $naam);
