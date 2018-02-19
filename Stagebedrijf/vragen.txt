@@ -6,6 +6,29 @@ Zit er een vergoeding bij het werk dat ik ga doen?
 Hoe laat begin ik met werken en hoe laat ben ik klaar?
 Wanneer zijn er pauzes?
 Moet ik nog materiaal meenemen?
+Welke programmeertaal gebruik je voor VR?
+
+1- 4
+2- Peilen voor niveau, gesprek voor uitdagingen. We laten je dingen doen die nieuw is.
+3- nee, volledig mee gaat naar de klant beurs en eten vergoeding
+4- 9 uur tot 5
+5- half uur pauze
+6- laptop en eten
+7- voornamelijk C#, C, PHP, Wordpress, Blender dat is in Python
+
+ze zitten samen met een interiuer bedrijf. Virtual reality om dingen te laten zien van de tekeningen
+toen zijn ze gaan developen om te lopen en te bewegen in VR
+ze hebben zelf een soort loopband ontwikkeld
+ze zijn doen heel breed VR toen moesten ze ook modellen.
+hele parken maken tot VR ready.
+ze gaan nu verder door zelf software te ontwikkelen
+ze zoeken de randjes op.
+ze zoeken nieuwe toepassingen.
+Ze willen steeds breder.
+Als een klant bij ze komen zorgen ze dat er altijd een oplossing is
+van 360 graden tot vrij rond lopen/
+ze hebben een backpack PC zonder dat je ergens aan vast zit.
+multiplayer is er ook.
 
 Vragen voor de student:
 
