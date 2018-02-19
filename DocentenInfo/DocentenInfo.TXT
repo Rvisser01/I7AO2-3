@@ -11,14 +11,14 @@ Wargers
 <strong>Wat vindt je het moeilijkste aan les geven?</strong> - op het moment dat studenten niet geïnteresseerd zijn
 <strong>in welke programeer taal bent u gespecialiseerd?</strong> - C++ en C#
 ???
-<strong>Waar woon je?</strong> - 
-<strong>Hoe oud ben je?</strong> -
-<strong>welke hobby's heb je?</strong> -
-<strong>Met welk vervoersmiddel kom je op school?</strong> -
-<strong>Wat deed je voordat je les gaf?</strong> -
-<strong>In welke vakken geef je allemaal les?</strong> -
-<strong>Welk vak vindt je leukste om les in te geven?</strong> -
-<strong>Welke opleiding deed je vroeger?</strong> -
-<strong>Wat vindt je het leukst aan les geven?</strong> -
-<strong>Wat vindt je het moeilijkste aan les geven?</strong> -
-<strong>in welke programeer taal bent u gespecialiseerd?</strong> -
+<strong>Waar woon je?</strong> - Hengelo
+<strong>Hoe oud ben je?</strong> - n.v.t.
+<strong>welke hobby's heb je?</strong> - Computeren, sport kijken
+<strong>Met welk vervoersmiddel kom je op school?</strong> - Fiets, soms lopen
+<strong>Wat deed je voordat je les gaf?</strong> - ICT manager
+<strong>In welke vakken geef je allemaal les?</strong> - Database,keuzedelen,projectmanagment,linux,html-css,datacom
+<strong>Welk vak vindt je leukste om les in te geven?</strong> - Database en project managment
+<strong>Welke opleiding deed je vroeger?</strong> - Economisch adminastieve opleiding
+<strong>Wat vindt je het leukst aan les geven?</strong> - Het overbrengen van kennis
+<strong>Wat vindt je het moeilijkste aan les geven?</strong> - Niks
+<strong>in welke programeer taal bent u gespecialiseerd?</strong> - Geen (html,css)
