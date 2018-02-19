@@ -53,7 +53,7 @@
             </tr>
             <tr>
             <td>Gespeelde: $gespeelde[$PSV]</td><td>Gespeelde: $gespeelde[$Ajax]</td><td>Gespeelde: $gespeelde[$AZ]</td><td>Gespeelde: $gespeelde[$Feyenoord]</td><td>Gespeelde: $gespeelde[$FCUtrecht]</td><td>Gespeelde: $gespeelde[$PECZwolle]</td><td>Gespeelde: $gespeelde[$Vitesse]</td><td>Gespeelde: $gespeelde[$ADODenHaag]</td><td>Gespeelde: $gespeelde[$Heerenveen]</td><td>Gespeelde: $gespeelde[$VVVVenlo]</td><td>Gespeelde: $gespeelde[$Excelsior]</td>
-            <td>Gespeelde: $naam[$Heracles]</td><td>Gespeelde: $naam[$FCGroningen]</td><td>Gespeelde: $gespeelde[$WillemII]</td><td>Gespeelde: $gespeelde[$NacBreda]</td><td>Gespeelde: $gespeelde[$FCTwente]</td><td>Gespeelde: $gespeelde[$RodaJC]</td><td>Gespeelde: $gespeelde[$SpartaRotterdam]</td>
+            <td>Gespeelde: $gespeelde[$Heracles]</td><td>Gespeelde: $gespeelde[$FCGroningen]</td><td>Gespeelde: $gespeelde[$WillemII]</td><td>Gespeelde: $gespeelde[$NacBreda]</td><td>Gespeelde: $gespeelde[$FCTwente]</td><td>Gespeelde: $gespeelde[$RodaJC]</td><td>Gespeelde: $gespeelde[$SpartaRotterdam]</td>
             </tr>
             <tr>
             <td>Gewonnen: $gewonnen[$PSV]</td><td>Gewonnen: $gewonnen[$Ajax]</td><td>Gewonnen: $gewonnen[$AZ]</td><td>Gewonnen: $gewonnen[$Feyenoord]</td><td>Gewonnen: $gewonnen[$FCUtrecht]</td><td>Gewonnen: $gewonnen[$PECZwolle]</td><td>Gewonnen: $gewonnen[$Vitesse]</td><td>Gewonnen: $gewonnen[$ADODenHaag]</td><td>Gewonnen: $gewonnen[$Heerenveen]</td><td>Gewonnen: $gewonnen[$VVVVenlo]</td><td>Gewonnen: $gewonnen[$Excelsior]</td><td>Gewonnen: $gewonnen[$Heracles]</td>
@@ -65,7 +65,7 @@
             </tr>
             <tr>
             <td>Verloren: $verloren[$PSV]</td><td>Verloren: $verloren[$Ajax]</td><td>Verloren: $verloren[$AZ]</td><td>Verloren: $verloren[$Feyenoord]</td><td>Verloren: $verloren[$FCUtrecht]</td><td>Verloren: $verloren[$PECZwolle]</td><td>Verloren: $verloren[$Vitesse]</td><td>Verloren: $verloren[$ADODenHaag]</td><td>Verloren: $verloren[$Heerenveen]</td><td>Verloren: $verloren[$VVVVenlo]</td><td>Verloren: $verloren[$Excelsior]</td><td>Verloren: $verloren[$Heracles]</td>
-            <td>Verloren: $naam[$FCGroningen]</td><td>Verloren: $verloren[$WillemII]</td><td>Verloren: $verloren[$NacBreda]</td><td>Verloren: $verloren[$FCTwente]</td><td>Verloren: $verloren[$RodaJC]</td><td>Verloren: $verloren[$SpartaRotterdam]</td>
+            <td>Verloren: $verloren[$FCGroningen]</td><td>Verloren: $verloren[$WillemII]</td><td>Verloren: $verloren[$NacBreda]</td><td>Verloren: $verloren[$FCTwente]</td><td>Verloren: $verloren[$RodaJC]</td><td>Verloren: $verloren[$SpartaRotterdam]</td>
             </tr>
           </table>
           </center>";
