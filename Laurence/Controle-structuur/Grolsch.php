@@ -6,15 +6,18 @@
   </head>
   <body>
     <?php
-      $leeftijd = array(10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30);
-      $randleeftijd = array_rand($leeftijd, 9);
+      $leeftijd = array("10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30");
+      $randleeftijd = array_rand($leeftijd,1);
       if ($randleeftijd > 17) {
-        header("Location: http://www.grolsch.nl");
+        header("http://www.grolsch.nl");
 
       } elseif ($randleeftijd < 18) {
-        header("Location: https://www.alcoholinfo.nl/publiek");
-        exit();
-      }
+      header("https://www.alcoholinfo.nl/publiek");
+      exit();
+    }
+
+
+  ?>
 
 
     ?>
