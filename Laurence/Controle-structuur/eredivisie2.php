@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <header>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta charset="utf-8">
     <title>Eredivisie</title>
     <center><h1>De stand op 19-02-2018 om 12:00 uur</h1></center>
