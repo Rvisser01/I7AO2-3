@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Weekdagen</title>
+<body>
+
+<p>Klik op de knop voor de dag van de week</p>
+
+<button onclick="myFunction()">Klik</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var d = new Date();
+    var dag = new Array(7);
+    dag[0] = "Zondag";
+    dag[1] = "Maandag";
+    dag[2] = "Dinsdag";
+    dag[3] = "Woensdag";
+    dag[4] = "Donderdag";
+    dag[5] = "Vrijdag";
+    dag[6] = "Zaterdag";
+
+    var n = dag[d.getDay()];
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
