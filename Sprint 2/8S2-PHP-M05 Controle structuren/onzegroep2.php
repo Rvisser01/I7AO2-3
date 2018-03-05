@@ -12,42 +12,31 @@
       $Leeftijden = array( '0300013' => "17" , '0266931' => "20" , '0267730' => "20" , '0279410' => "19" , '0297652' => "16" , '0300838' => "16");
 
 
-      foreach ($Voornamen as $Voornaam){
+      foreach ($Voornamen as $Voornaam :: $Achternamen as $Achternaam :: $Woonplaatsen as $Woonplaats :: $Leeftijden as $Leeftijd){
           echo "<table>
             <tr>
               <td>
                 $Voornaam
                 </td>
             </tr>
+            <tr>
+              <td>
+                $Achternaam
+              </td>
+            </tr>
+            <tr>
+              <td>
+                $Woonplaats
+              </td>
+            </tr>
+            <tr>
+              <td>
+                $Leeftijd
+              </td>
+            </tr>
           </table>";
       }
-      foreach($Achternamen as $Achternaam){
-        echo "<table>
-          <tr>
-            <td>
-              $Achternaam
-            </td>
-          </tr>
-        </table>";
-      }
-      foreach($Woonplaatsen as $Woonplaats){
-        echo "<table>
-          <tr>
-            <td>
-              $Woonplaats
-            </td>
-          </tr>
-        </table>";
-      }
-      foreach($Leeftijden as $Leeftijd){
-        echo "<table>
-          <tr>
-            <td>
-              $Leeftijd
-            </td>
-          </tr>
-        </table>";
-}
+
 
     ?>
   </body>
