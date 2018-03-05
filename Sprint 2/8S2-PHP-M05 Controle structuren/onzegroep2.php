@@ -37,11 +37,6 @@
                 </td>
               </tr>
             </table>";
-            <style>
-              cursief{
-                font-style: italic;
-              }
-            </style>
 
         }
     ?>
