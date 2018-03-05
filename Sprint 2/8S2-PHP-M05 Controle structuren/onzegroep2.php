@@ -11,8 +11,9 @@
       $Woonplaatsen = array( '0300013' => "Enschede" , '0266931' => "Enschede" , '0267730' => "Enschede" , '0279410' => "Enschede" , '0297652' => "Overdinkel" , '0300838' => "Enschede");
       $Leeftijden = array( '0300013' => "17" , '0266931' => "20" , '0267730' => "20" , '0279410' => "19" , '0297652' => "16" , '0300838' => "16");
 
+      $persoon = array_rand($voornaam, 1);
 
-      foreach ($Voornamen as $Voornaam :: $Achternamen as $Achternaam :: $Woonplaatsen as $Woonplaats :: $Leeftijden as $Leeftijd){
+      foreach ($Voornamen as $Voornaam and $Achternamen as $Achternaam and $Woonplaatsen as $Woonplaats and $Leeftijden as $Leeftijd){
           echo "<table>
             <tr>
               <td>

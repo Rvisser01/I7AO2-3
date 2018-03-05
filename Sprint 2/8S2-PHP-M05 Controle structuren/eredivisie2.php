@@ -9,6 +9,12 @@
   <body>
 
     <?php
+    function ClubSelector($value = $key)
+    {
+      echo "<td>Positie: $positie</td><br>";
+    }
+
+    array_walk($positie,"ClubSelector");
         $positie = array("PSV" => "1" , "Ajax" => "2" , "AZ" => "3" , "Feyenoord" => "4" , "FC Utrecht" => "5" , "PEC Zwolle" => "6" , "Vitesse" => "7" , "ADO Den Haag" => "8" ,  "Heerenveen" => "9" , "VVV-Venlo" => "10" , "Excelsior" => "11" , "Heracles" => "12" , "FC Groningen" => "13" , "Willem II" => "14" , "NAC Breda" => "15" , "FC Twente" => "16" , "Roda JC" => "17" , "Sparta Rotterdam" => "18");
         $naam = array("PSV" => "PSV" , "Ajax" => "Ajax" , "AZ" => "AZ" , "PEC Zwolle" => "PEC Zwolle" , "Feyenoord" => "Feyenoord" , "Vitesse" => "Vitesse" , "FC Utrecht" => "FC Utrecht" , "Heerenveen" => "Heerenveen" ,  "VVV-Venlo" => "VVV-Venlo" , "ADO Den Haag" => "ADO Den Haag" , "Excelsior" => "Excelsior" , "Heracles" => "Heracles" , "FC Groningen" => "FC Groningen" , "Willem II" => "Willem II" , "FC Twente" => "FC Twente" , "NAC Breda" => "NAC Breda" , "Roda JC" => "Roda JC" , "Sparta Rotterdam" => "Sparta Rotterdam");
         $stad = array("PSV" => "Eindhoven" , "Ajax" => "Amsterdam" , "AZ" => "Alkmaar" , "PEC Zwolle" => "Zwolle" , "Feyenoord" => "Rotterdam" , "Vitesse" => "Arnhem" , "FC Utrecht" => "Utrecht" , "Heerenveen" => "Heerenveen" ,  "VVV-Venlo" => "Venlo" , "ADO Den Haag" => "Den Haag" , "Excelsior" => "Rotterdam" , "Heracles" => "Almelo" , "FC Groningen" => "Groningen" , "Willem II" => "Tilburg" , "FC Twente" => "Enschede" , "NAC Breda" => "Breda" , "Roda JC" => "Kerkrade" , "Sparta Rotterdam" => "Rotterdam");
@@ -17,25 +23,6 @@
         $Gelijk = array("PSV" => "2" , "Ajax" => "3" , "AZ" => "5" , "PEC Zwolle" => "6" , "Feyenoord" => "6" , "Vitesse" => "7" , "FC Utrecht" => "8" , "Heerenveen" => "8" ,  "VVV-Venlo" => "10" , "ADO Den Haag" => "5" , "Excelsior" => "5" , "Heracles" => "6" , "FC Groningen" => "9" , "Willem II" => "5" , "FC Twente" => "5" , "NAC Breda" => "5" , "Roda JC" => "5" , "Sparta Rotterdam" => "6");
         $verloren = array("PSV" => "2" , "Ajax" => "3" , "AZ" => "4" , "PEC Zwolle" => "7" , "Feyenoord" => "6" , "Vitesse" => "7" , "FC Utrecht" => "5" , "Heerenveen" => "8" ,  "VVV-Venlo" => "7" , "ADO Den Haag" => "9" , "Excelsior" => "11" , "Heracles" => "11" , "FC Groningen" => "10" , "Willem II" => "14" , "FC Twente" => "15" , "NAC Breda" => "14" , "Roda JC" => "15" , "Sparta Rotterdam" => "15");
 
-
-          $PSV = array_search("PSV" , $naam);
-          $Ajax = array_search("Ajax" , $naam);
-          $AZ = array_search("AZ" , $naam);
-          $Feyenoord = array_search("Feyenoord" , $naam);
-          $FCUtrecht = array_search("FC Utrecht" , $naam);
-          $PECZwolle = array_search("PEC Zwolle" , $naam);
-          $Vitesse = array_search("Vitesse" , $naam);
-          $ADODenHaag = array_search("ADO Den Haag" , $naam);
-          $Heerenveen = array_search("Heerenveen" , $naam);
-          $VVVVenlo = array_search("VVV-Venlo" , $naam);
-          $Excelsior = array_search("Excelsior" , $naam);
-          $Heracles = array_search("Heracles" , $naam);
-          $FCGroningen = array_search("FC Groningen" , $naam);
-          $WillemII = array_search("Willem II" , $naam);
-          $NacBreda = array_search("NAC Breda" , $naam);
-          $FCTwente = array_search("FC Twente" , $naam);
-          $RodaJC = array_search("Roda JC" , $naam);
-          $SpartaRotterdam = array_search("Sparta Rotterdam" , $naam);
           echo"
           <center>
           <table>
