@@ -38,18 +38,17 @@
     <title>Priemgetallen</title>
 </head>
 <body>
-
+  <form action="" method="post">
+      <fieldset>
+          <legend>Check Priemgetal</legend>
+          <table>
+              <tr>
+                  <td>Getal</td>
+                  <td><input type="text" size="4" name="number" /></td>
+                  <td><input type="submit" name="check" value="Controleer Getal" /></td>
+              </tr>
+          </table>
           <?php
-          <form action="" method="post">
-              <fieldset>
-                  <legend>Check Priemgetal</legend>
-                  <table>
-                      <tr>
-                          <td>Getal</td>
-                          <td><input type="text" size="4" name="number" /></td>
-                          <td><input type="submit" name="check" value="Controleer Getal" /></td>
-                      </tr>
-                  </table>
           function isPrime($number)
           {
             if($_SERVER['REQUEST_METHOD'] == "POST") {
