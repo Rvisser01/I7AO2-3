@@ -5,7 +5,11 @@
     <title>Onze groep</title>
   </head>
   <body>
-
+    <style>
+      #cursief {
+        font-style: italic;
+      }
+    </style>
     <?php
       $Voornamen = array( '0300013' => "Laurence" , '0266931' => "Peter" , '0267730' => "Pim" , '0279410' => "Arben" , '0297652' => "Robbin" , '0300838' => "Damian");
       $Achternamen = array( '0300013' => "Van der Wel" , '0266931' => "Kuipers" , '0267730' => "Hoomans" , '0279410' => "Hajrizaj" , '0297652' => "Visser" , '0300838' => "Trojak");
@@ -27,7 +31,7 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td id='cursief'>
                   ".($Woonplaatsen[$id])."
                 </td>
               </tr>
