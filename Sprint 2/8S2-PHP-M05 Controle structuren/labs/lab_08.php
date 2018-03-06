@@ -3,17 +3,19 @@
 <head>
     <meta http-equiv="Content-Type"
           content="text/html"
-          charset="UTF-8">
+          charset="UTF-8" />
     <title>Mijn Muziek</title>
 </head>
 
 <body>
-<!--Shoppingcartbegint hier-->
-<form action="bestellen.php" method="post">
+<!--Shoppingcart begint hier-->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <form name="order"
+    action=""
+    method="POST">
         <tr>
             <td>
-                <img src="/" width="100px" alt="X" />
+                <img src="rabbit.jpg" width="100px" alt="X" />
             </td>
         </tr>
         <tr>
@@ -35,30 +37,6 @@
                 <hr />
             </td>
         </tr>
-        <tr>
-            <td>
-                <img src="" width="100px" alt="X" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Manu Chao "Clandestino" Tracks:12 Prijs: 9,50
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="hidden" name="Albumcode[1]" value="002" />
-                <input type="hidden" name="Artiest[1]" value="Man Chao" />
-                <input type="hidden" name="Titel[1]" value="Clandestino" />
-                <input type="hidden" name="Tracks[1]" value="12" />
-                <input type="hidden" name="Prijs[1]" value="9,50" />
-                <input type="hidden" name="Genre [1]" value="Latin" />
-
-                Aantal: <input type="text" size="2" maxlength="3" name="album" value="0"
-                               style="background-color: #f8ce6c" />
-                <hr />
-            </td>
-        </tr>
 
         <tr>
             <td>
@@ -66,75 +44,87 @@
                 <input type="checkbox" name="student" value="15" />Student 15%<br />
                 <input type="checkbox" name="senior" value="10" />Senior 10%<br />
                 <input type="checkbox" name="klant" value="5" />Klant 5%<br />
-                <hr />
             </td>
         </tr>
         <tr>
-            <td>
-                <p>Selecteer een betalingswijze</p>
+          <td>
 
+
+          </td>
+        </tr>
+        <tr>
+            <td>
+            <p>Selecteer een betalingswijze:</p>
+                <select name="betaling" value="true">
+                    <option value=""></option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="ideal">Ideal</option>
+                  <input type="submit" width="300px" name="submit"
+                         value="       Bestellen       "/>
+                       <hr />
             </td>
         </tr>
+
+
 </table>
-<select name="betalinswijze" value="true">
-    <option value=""></option>
-    <option value="visa">Visa</option>
-    <option value="mastercard">Mastercard</option>
-    <option value="paypal">PayPal</option>
-    <option value="ideal">Ideal</option>
-    <input type="submit" width="300px" name="submit"
-           value="       Bestellen       "/>
 <!--Shoppingcart eindigt hier-->
 </body>
-</form>
 </html>
 <?php
-$x = $_POST["album"];
 if(isset($_POST["submit"])){
     if(empty($_POST["aantal"])) {
-        echo "";
+        echo "aantal niet ingevuld";
     }
     else{
         $aantal = $_POST["aantal"];
-        $aantal1 = $_POST["album"];
-        $aantaltot = $aantal + $aantal1;
-        $aantaltot = $aantal + $aantal1;
+        if (empty($_POST["aantal"])){
+            echo "aantal niet ingevuld";
         }
-    }
+        elseif (empty($_POST["aantal"])){
+            echo "aantal niet ingevuld";
+        }
+        else {
+            echo "Aantal is: $aantal";
+        }
+    } }
+
+$kortingtot = 0;
+$korting1 = 0;
+$korting2 = 0;
+$korting3 = 0;
 
 if(isset($_POST["submit"])) {
-    if (empty($_POST["album"])) {
-        echo "";
-    } else {
-        $aantal = $_POST["aantal"];
-        $aantal1 = $_POST["album"];
-        $aantaltot = $aantal + $aantal1;
-    }
-    }
-echo "<br>Aantal totaal is: $aantaltot";
-    $kortingtot = 0;
-    $korting1 = 0;
-    $korting2 = 0;
-    $korting3 = 0;
+    if (isset($_POST["student"]))
+        $korting1 = $korting1 + 15;
 
     if (isset($_POST["submit"])) {
-        if (isset($_POST["student"]))
-            $korting1 = $korting1 + 15;
-
+        if (isset($_POST["senior"]))
+            $korting2 = $korting2 + 10;
         if (isset($_POST["submit"])) {
-            if (isset($_POST["senior"]))
-                $korting2 = $korting2 + 10;
-            if (isset($_POST["submit"])) {
-                if (isset($_POST["klant"]))
-                    $korting3 = $korting3 + 5;
+            if (isset($_POST["klant"]))
+                $korting3 = $korting3 + 5;
 
-                $kortingtot = $korting1 + $korting2 + $korting3;
-                echo "<br>Korting is: $kortingtot%";
-            }
+            $kortingtot = $korting1 + $korting2 + $korting3;
+            echo "<br>Korting is: $kortingtot%";
         }
-
+    }
 }
-include ("externefunctions.php");
-$servicekosten = ($betalinswijze);
-echo "<br>Servicekosten:" . $servicekosten;
+if(isset($_POST["submit"]))
+{
+    switch ($_POST['betaling']):
+    case "visa" :
+        echo "<p>U heeft visa als betalingswijze gekozen</p>";
+        break;
+case "mastercard" :
+        echo "<p>U heeft mastercard als betalingswijze gekozen</p>";
+        break;
+        case "paypal" :
+        echo "<p>U heeft paypal als betalingswijze gekozen</p>";
+        break;
+        case "ideal" :
+        echo "<p>U heeft ideal als betalingswijze gekozen</p>";
+        break;
+endswitch; }
 ?>
