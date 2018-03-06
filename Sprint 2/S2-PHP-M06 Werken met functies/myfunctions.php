@@ -2,7 +2,7 @@
 <html>
   <body>
     <form action="" method="post">
-     <input type="text" name="getal" placeholder="prime checker";><br>
+     <input type="text" name="getal" placeholder="prime checker"><br>
      <input type="submit" name="submit" value="Check">
     <?php
       function reverse()
@@ -13,8 +13,7 @@
 
     function IsPrime($n)
     {
-
-     for($x=2; $x<$n; $x++)
+     for($x=isset($_POST["submit"]); $x<$n;)
        {
           if($n %$x ==0)
     	      {
@@ -23,11 +22,13 @@
         }
       return 1;
      }
-    $a = IsPrime(isset($_POST["getal"]));
-    if ($a==0)
+    $a = isPrime($_POST= $n);
+    if ($a==0){
     echo 'false'."\n";
-    else
+    }
+    else {
     echo 'true'."\n";
+    }
 
     ?>
 
