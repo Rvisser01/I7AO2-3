@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST{"submit"}))
 
-$betalingswijze = 0;
+$betalingswijze = 1;
 
 
 if(isset($_POST["submit"])) {
