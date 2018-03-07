@@ -33,4 +33,6 @@ if(isset($_POST["submit"])) {
             "Rock" => array("min" => 3, "max" => 7),
             "R&B" => array("min" => 4, "max" => 7),
             "Pop" => array("min" => 5, "max" => 7));
+
+        
 ?>

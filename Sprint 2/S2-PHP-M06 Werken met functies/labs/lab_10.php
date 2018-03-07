@@ -15,7 +15,7 @@
     method="POST">
         <tr>
             <td>
-                <img src="../images/album.jpg" width="100px" alt="X" />
+                <img src="../images/rabbit.jpg" width="100px" alt="X" />
             </td>
         </tr>
         <tr>
