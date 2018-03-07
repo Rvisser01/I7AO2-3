@@ -127,7 +127,7 @@ case "mastercard" :
         echo "<p>U heeft ideal als betalingswijze gekozen</p>";
         break;
 endswitch; }
-include ("externefunctions.php");
-$servicekosten = ($betalinswijze);
+include_once ("externefunctions.php");
+$servicekosten = ("$betalingswijze");
 echo "<br>Servicekosten:" . $servicekosten;
 ?>
