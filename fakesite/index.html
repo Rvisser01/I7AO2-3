@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css?ts=1520431427&amp;">
+    <title> ○ Groep AO 3 ○ </title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+</head>
+<body>
+<header>
+    <h1>AO Groep 3</h1>
+    <nav>
+        <a onclick="HOME()">Home</a>
+        <a onclick="GROEPSLEDEN()">Groepsleden</a>
+        <a onclick="OPDRACHTEN()">Opdrachten</a>
+        <a onclick="FOOTER()">Footer</a>
+    </nav>
+</header>
+<div id="HOME" class="HERO">
+    <h1 style="text-align: center">■ AO Groep 3 ■</h1>
+</div>
+<div class="Line"></div>
+<div id="GROEPSLEDEN" class="Groepsleden">
+    <h1 style="text-align: center">◎ Groepsleden ◎</h1>
+    <br>
+    <div class="Groupscards">
+        <div class="Group"><h1>Laurence</h1> <button onclick="window.location.href='/profiel/yasar/index.html'">Klik</button></div>
+        <div class="Group"><h1>Damian</h1><button onclick="window.location.href='/profiel/aron/index.php'">Klik</button></div>
+        <div class="Group"><h1>Robbin</h1> <button onclick="window.location.href='/profiel/lars/index.php'">Klik</button></div>
+        <div class="Group"><h1>Arben</h1> <button onclick="window.location.href='/profiel/remo/index.php'">Klik</button></div>
+        <div class="Group"><h1>Pim</h1> <button onclick="window.location.href='/profiel/jordy/index.php'">Klik</button></div>
+        <div class="Group"><h1>Peter</h1> <button onclick="window.location.href='/profiel/onur/website.html'">Klik</button></div>
+    </div>
+</div>
+<div id="OPDRACHTEN" class="Line2"></div>
+<div class="Sprinten">
+    <div class="SpR">
+        <div class="SPRN">
+            <a id="SPR1" onclick="Sprint1()" class="SprG"><b>Sprint 1</b></a>
+            <a id="SPR2" onclick="Sprint2()" class="SprG"><b>Sprint 2</b></a>
+            <a id="SPR3" onclick="Sprint3()" class="SprG"><b>Sprint 3</b></a>
+        </div>
+    </div>
+    <div class="SprintBox">
+        <div id="Sprint">
+
+        </div>
+</div>
+</div>
+<div id="FOOTER" class="Line3"></div>
+<footer>
+<h1>Groep 3 AO</h1>
+    <h3> Links: <a onclick="HOME()">Home</a> | <a onclick="GROEPSLEDEN()">Groepsleden</a> | <a  onclick="OPDRACHTEN()">Opdrachten</a> | <a onclick="FOOTER()">Footer</a></h3>
+    <p>  <i>Laurence ⁃ Damian ⁃ Robbin ⁃ Arben ⁃ Pim ⁃ Peter</i>  <b>• 2017-2018</b></p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    function HOME() {
+        document.querySelector('#HOME').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+    function GROEPSLEDEN() {
+        document.querySelector('#GROEPSLEDEN').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    function OPDRACHTEN() {
+        document.querySelector('#OPDRACHTEN').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    function FOOTER() {
+        document.querySelector('#FOOTER').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+<script>
+
+    $(document).ready(function() {
+        $('#Sprint').load('Sprints/sprint1.php');
+    });
+
+    function Sprint1() {
+        $("#Sprint").css("display","none");
+        $('#Sprint').empty();
+        $('#Sprint').load('Sprints/sprint1.php');
+        $("#Sprint").fadeIn(1000);
+        $("#SPR1").css({'background-color': 'gray', 'color': 'white'});
+        $("#SPR2").css({'background-color': '', 'color': ''});
+        $("#SPR3").css({'background-color': '', 'color': ''});
+    }
+    function Sprint2() {
+        $("#Sprint").css("display","none");
+        $('#Sprint').empty();
+        $('#Sprint').load('Sprints/sprint2.php');
+        $("#Sprint").fadeIn(1000);
+        $("#SPR1").css({'background-color': '', 'color': ''});
+        $("#SPR2").css({'background-color': 'gray', 'color': 'white'});
+        $("#SPR3").css({'background-color': '', 'color': ''});
+    }
+    function Sprint3() {
+        $("#Sprint").css("display","none");
+        $('#Sprint').empty();
+        $('#Sprint').load('Sprints/sprint3.php');
+        $("#Sprint").fadeIn(1000);
+        $("#SPR1").css({'background-color': '', 'color': ''});
+        $("#SPR2").css({'background-color': '', 'color': ''});
+        $("#SPR3").css({'background-color': 'gray', 'color': 'white'});
+    }
+</script>
+<script>
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 50) {
+            $("header").addClass("active");
+            $("nav").addClass("active");
+        } else {
+            $("header").removeClass("active");
+            $("nav").removeClass("active");
+        }
+    });
+</script>
+<script>
+
+</script>
+</body>
+</html>

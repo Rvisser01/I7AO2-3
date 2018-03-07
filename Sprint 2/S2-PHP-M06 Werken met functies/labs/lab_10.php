@@ -127,8 +127,8 @@ case "mastercard" :
         echo "<br>U heeft ideal als betalingswijze gekozen.<br>";
         break;
 endswitch; }
-$servicekosten ="0";
 $betalingswijze ="0 <br> Geen betalingswijze gekozen.";
+$servicekosten =" 0";
 include_once ("externefunctions.php");
 $servicekosten = ("$betalingswijze");
 echo "Servicekosten:" . $servicekosten;

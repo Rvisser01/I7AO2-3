@@ -7,7 +7,7 @@ $betalingswijze = 0;
 if(isset($_POST["submit"])) {
         switch ($_POST["betaling"]) {
           case "leeg" :
-              echo "<br>Je hebt geen betalingswijze gekozen";
+              echo "<br>Je hebt geen betalingswijze gekozen.<br>";
               $betalingswijze = 0;
               break;
             case "visa" :
