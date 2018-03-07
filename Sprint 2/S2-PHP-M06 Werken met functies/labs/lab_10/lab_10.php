@@ -128,6 +128,6 @@ case "mastercard" :
         break;
 endswitch; }
 include ("externefunctions.php");
-$servicekosten = ($betalinswijze);
+$servicekosten = ($betalingswijze);
 echo "<br>Servicekosten:" . $servicekosten;
 ?>
