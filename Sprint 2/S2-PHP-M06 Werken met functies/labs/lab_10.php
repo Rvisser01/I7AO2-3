@@ -15,7 +15,7 @@
     method="POST">
         <tr>
             <td>
-                <img src="rabbit.jpg" width="100px" alt="X" />
+                <img src="../images/album.jpg" width="100px" alt="X" />
             </td>
         </tr>
         <tr>
@@ -56,7 +56,7 @@
             <td>
             <p>Selecteer een betalingswijze:</p>
                 <select name="betaling" value="true">
-                    <option value=""></option>
+                    <option value="leeg"></option>
                     <option value="visa">Visa</option>
                     <option value="mastercard">Mastercard</option>
                     <option value="paypal">PayPal</option>
@@ -115,19 +115,21 @@ if(isset($_POST["submit"]))
 {
     switch ($_POST['betaling']):
     case "visa" :
-        echo "<p>U heeft visa als betalingswijze gekozen</p>";
+        echo "<br>U heeft visa als betalingswijze gekozen.<br>";
         break;
 case "mastercard" :
-        echo "<p>U heeft mastercard als betalingswijze gekozen</p>";
+        echo "<br>U heeft mastercard als betalingswijze gekozen.<br>";
         break;
         case "paypal" :
-        echo "<p>U heeft paypal als betalingswijze gekozen</p>";
+        echo "<br>U heeft paypal als betalingswijze gekozen.<br>";
         break;
         case "ideal" :
-        echo "<p>U heeft ideal als betalingswijze gekozen</p>";
+        echo "<br>U heeft ideal als betalingswijze gekozen.<br>";
         break;
 endswitch; }
+$servicekosten ="0";
+$betalingswijze ="0 <br> Geen betalingswijze gekozen.";
 include_once ("externefunctions.php");
 $servicekosten = ("$betalingswijze");
-echo "<br>Servicekosten:" . $servicekosten;
+echo "Servicekosten:" . $servicekosten;
 ?>

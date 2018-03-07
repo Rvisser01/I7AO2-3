@@ -5,21 +5,21 @@ $betalingswijze = 0;
 
 
 if(isset($_POST["submit"])) {
-        switch ($_POST["$betalingswijze"]) {
+        switch ($_POST["betaling"]) {
+          case "leeg" :
+              echo "<br>Je hebt geen betalingswijze gekozen";
+              $betalingswijze = 0;
+              break;
             case "visa" :
-                echo "<br>betalingwijze:visa";
                 $betalingswijze = 10;
                 break;
             case "mastercard" :
-                echo "<br>betalingswijze:mastercard";
                 $betalingswijze = 12;
                 break;
             case "paypal" :
-                echo "<br>betalingswijze:paypal";
                 $betalingswijze = 14;
                 break;
             case "ideal" :
-                echo "<br>betalingswijze:ideal";
                 $betalingswijze = 16;
                 break;
 
