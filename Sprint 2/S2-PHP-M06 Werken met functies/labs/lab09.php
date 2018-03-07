@@ -28,8 +28,9 @@
       <p>--------------------------------------------------------------</p>
       <br>
       <?php
-      function reiskosten($vertrek, $bestemming)
+      function reiskosten($vertrek, $bestemming, $reiskosten)
       {
+
         $reiskosten = array();
         $reiskosten [1] = array(); //Amsterdam
         $reiskosten [2] = array(); //Utrecht
@@ -56,11 +57,10 @@
         $reiskosten [4][3] = 10;
         $reiskosten [4][4] = 0;
         return($reiskosten[$vertrek][$bestemming]);
-
       }
 
-
-        echo 'De berekende reiskosten zijn:  euro.';
+        echo reiskosten($vertrek, $bestemming, $reiskosten);
+        echo 'De berekende reiskosten zijn:' .print_r($reiskosten, true). 'euro.';
        ?>
 
      </form>
