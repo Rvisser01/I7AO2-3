@@ -5,7 +5,7 @@ $betalingswijze = 0;
 
 
 if(isset($_POST["submit"])) {
-        switch ($_POST["betalingswijze"]) {
+        switch ($_POST["$betalingswijze"]) {
             case "visa" :
                 echo "<br>betalingwijze:visa";
                 $betalingswijze = 10;
@@ -32,6 +32,5 @@ if(isset($_POST["submit"])) {
             "World" => array("min" => 2, "max" => 5),
             "Rock" => array("min" => 3, "max" => 7),
             "R&B" => array("min" => 4, "max" => 7),
-            "Pop" => array("min" => 5, "max" => 7)
-        );
+            "Pop" => array("min" => 5, "max" => 7));
 ?>
