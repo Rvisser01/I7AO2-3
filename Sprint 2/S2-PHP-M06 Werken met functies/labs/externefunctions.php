@@ -25,7 +25,7 @@ if(isset($_POST["submit"])) {
 
         }
         }
-
+      function bestelRules($genre,$aantal) {
         $rules = array(
             "Klasiek"=> array("min" => 3, "max" => 7),
             "Latin" => array("min" => 1, "max" => 5),
@@ -33,6 +33,6 @@ if(isset($_POST["submit"])) {
             "Rock" => array("min" => 3, "max" => 7),
             "R&B" => array("min" => 4, "max" => 7),
             "Pop" => array("min" => 5, "max" => 7));
+          }
 
-        
 ?>
