@@ -39,7 +39,7 @@
           echo "Geen geldig BSN ingevuld";
         }
       }
-    
+
      ?>
 
   </body>
