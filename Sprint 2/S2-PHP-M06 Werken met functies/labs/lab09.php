@@ -58,9 +58,11 @@
         $reiskosten [4][4] = 0;
         return($reiskosten[$vertrek][$bestemming]);
       }
-
+      if (isset($_POST["submit"])) {
         echo reiskosten($vertrek, $bestemming, $reiskosten);
         echo 'De berekende reiskosten zijn:' .print_r($reiskosten, true). 'euro.';
+      }
+
        ?>
 
      </form>
