@@ -37,7 +37,30 @@
                     <hr />
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <img src="../images/album.jpg" width="100px" alt="X" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Manu Chao "Cladestino" Tracks:12 Prijs:9.50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" name="Albumcode[1]" value="002" />
+                    <input type="hidden" name="Artiest[1]" value="Manu Chao" />
+                    <input type="hidden" name="Titel[1]" value="Cladestino" />
+                    <input type="hidden" name="Tracks[1]" value="12" />
+                    <input type="hidden" name="Prijs[1]" value="9,50" />
+                    <input type="hidden" name="Genre [1]" value="Latin" />
 
+                    Aantal: <input type="text" size="2" maxlength="3" name="aantal" value="0"
+                                   style="background-color: #f8ce6c" />
+                    <hr />
+                </td>
+            </tr>
             <tr>
                 <td>
                     Korting:<br />
