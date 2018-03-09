@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prompt</title>
+    </head>
+    <body>
+        <h3>Opgave 3: Prompt</h3>
+        <button onclick="myFunction()">Log in</button>
+        <p id= "demo1"></p>
+        <p id="demo"></p>
+        <script>
+        function myFunction()
+        {
+            var voornaam = prompt("Uw voornaam is:", "");
+            var achternaam = prompt("Uw achternaam is:", "");
+            var leeftijd = prompt("Uw leeftijd is:", "");
+
+            if (voornaam != null)
+            {
+              document.getElementById("demo1").innerHTML =
+              "Uw voornaam is: " + voornaam + "<br>" + "Uw achternaam is: " + achternaam + "<br>" + "Uw leeftijd is: " + leeftijd;
+              document.getElementById("demo").innerHTML =
+              "Welkom op mijn website " + voornaam + " " + achternaam + ", U bent " + leeftijd + " jaar oud";
+            }
+        }
+        </script>
+    </body>
+</html>

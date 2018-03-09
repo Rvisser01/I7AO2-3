@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alert</title>
+    </head>
+    <body>
+        <h3>Alert</h3>
+        <p>Opgave 1: Javascript Alert-box</p>
+        <script>
+        alert("Welkom op mijn eerste website: \nDit is mijn eerste Javascript: \nEnkele onderwerpen die ik ga behandelen zijn: \n\t*Alert \n\t*Console \n\t*Write \n\t*Confirm \n\t*Prompt \n\t*Variabelen \n\t*En operatoren \nIk wens je veel plezier op mijn website! ");
+        </script>
+    </body>
+</html>
