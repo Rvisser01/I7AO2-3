@@ -3,7 +3,7 @@
   $GLOBALS["url"] = "www.mijndomeinnaam.nl";
   //globale scope
   global $email;
-  $email ="webmaster@mijndomeinnaam.nl";
+  $emial ="webmaster@mijndomeinnaam.nl";
   //globale constanten
   define("BIJDRAGE",0.10);
   function doneren($bedrag)
@@ -14,7 +14,7 @@
     echo "<br>URL: " . $GLOBALS["url"];
     echo "<br>Bedrag: " . $bedrag;
     global $email;
-    echo "<br>E-mail:" . $email;
+    echo "<br>E-mail: " . $emial;
     $bijdrage = $bedrag * BIJDRAGE;
     $donatie = $bedrag + $bijdrage;
     echo "<br>Inclusief bijdrage: $donatie";
@@ -28,7 +28,6 @@
     echo "<br>";
   }
   doneren(100);
-
   doneren(1000);
   doneren(33333);
 ?>
