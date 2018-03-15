@@ -22,8 +22,13 @@
     $pot = $pot + $donatie;
     echo "<br><span style='background-color:yellow'>
     Totaal bedrag in pot $pot</span><br>";
+    static $hoogste;
+    $hoogste = max($bijdrage,$bedrag);
+    echo "Hoogste donatie tot nu toe is:  $hoogste";
+    echo "<br>";
   }
   doneren(100);
+
   doneren(1000);
   doneren(33333);
 ?>
