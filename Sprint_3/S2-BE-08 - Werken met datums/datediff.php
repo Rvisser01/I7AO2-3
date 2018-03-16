@@ -12,11 +12,11 @@
       <br><br><input type="submit" name="bereken" value="Bereken">
     </form>
     <?php
-    if (isset($_POST["bereken"])) {
+      if (isset($_POST["bereken"])) {
 
-        $datum1 = $_POST['datum2'];
-        $datum1 = $_POST['datum1'];
-
+          $datum2 = $_POST['datum2'];
+          $datum1 = $_POST['datum1'];
+      }  
 
 
 
