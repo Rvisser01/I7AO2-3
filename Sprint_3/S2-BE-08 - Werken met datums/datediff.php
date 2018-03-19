@@ -21,13 +21,10 @@
         }
           $datum1 = $_POST['datum1'];
           $datum2 = $_POST['datum2'];
-<<<<<<< HEAD
-=======
 
           $datum1 = DateTime($datum1);
           $datum2 = DateTime($datum2);
-          
->>>>>>> d017aa2946e1bd7071165b4c851687ae58d88bba
+
           $verschil = date_diff($datum1,$datum2);
           echo "<br>Er zitten ".$verschil->format("%a dagen verschil tussen");
       }
