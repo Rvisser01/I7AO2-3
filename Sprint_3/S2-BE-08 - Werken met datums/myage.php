@@ -14,12 +14,12 @@
     echo "<br>De dag van vandaag: ".date_format($vandaag, "Y-m-d");
     echo "<br>";
     $interval = date_diff($vandaag, $verjaardag);
-    echo "<br>Ik ben ".$interval->format("%M%m maanden oud");
-    echo "<br>Ik ben ".$interval->format("%a dagen oud");
-    echo "<br>Ik ben ".$interval->format("%m weken oud");
-    echo "<br>Ik ben ".$interval->format("%H%h uren oud");
-    echo "<br>Ik ben ".$interval->format("%F minuten oud");
-    echo "<br>Ik ben ".$interval->format("%f seconden oud");
+    echo "<br>Ik ben ".$interval->h;
+    //echo "<br>Ik ben ".$interval->format("%a dagen oud");
+    //echo "<br>Ik ben ".$interval->format("%m weken oud");
+    //echo "<br>Ik ben ".$interval->format("%H%h uren oud");
+    //echo "<br>Ik ben ".$interval->format("%F minuten oud");
+    //echo "<br>Ik ben ".$interval->format("%f seconden oud");
     ?>
   </body>
 </html>

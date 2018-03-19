@@ -6,9 +6,14 @@
   </head>
   <body>
     <?php
-      echo "Maak een cookie";
-      setcookie("gebruiker","sanskrit",mktime(0,0,0,1,1,2050));
-
+        setcookie("user", "",time()-3600);
+        if (isset($_COOKIE["user"]))
+          {
+          echo $_COOKIE["user"];
+          }
+        else {
+          echo "Cookie  is verwijderd";
+        }
     ?>
   </body>
 </html>
