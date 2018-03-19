@@ -1,4 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cookies</title>
+</head>
+<body>
+<form name="login" method="post">
+  <?php
             $msg = '';
 
             if (isset($_POST['login']) && !empty($_POST['username'])
@@ -17,7 +25,7 @@
                   $msg = 'Wrong username or password';
                }
             }
-?>
+</form>
       </div> <!-- /container -->
 
       <div class = "container">
