@@ -12,7 +12,7 @@
         $gebruiker = $_COOKIE["gebruiker"];
         echo "<br>Gebruikersnaam is : $gebruiker";
         print_r($_COOKIE);
-      ob_end_flush();
+        ob_end_flush();
     ?>
   </body>
 </html>
