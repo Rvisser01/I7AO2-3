@@ -1,11 +1,21 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cookies</title>
+</head>
+<body>
+<form name="login" method="post">
+  <?php
             $msg = '';
 
             if (isset($_POST['login']) && !empty($_POST['username'])
                && !empty($_POST['password'])) {
 
-               if ($_POST['username'] == 'tutorialspoint' &&
-                  $_POST['password'] == '1234') {
+               if ($_POST['username'] == '0279410@student.rocvantwente.nl', "0267730@student.rocvantwente.nl",
+               "0266931@student.rocvantwente.nl", "0300838@student.rocvantwente.nl", "0297652@student.rocvantwente.nl"
+               ,"0300013@student.rocvantwente.nl" &&
+                  $_POST['password'] == 'Welkom12345!') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'tutorialspoint';
@@ -15,11 +25,11 @@
                   $msg = 'Wrong username or password';
                }
             }
-         ?>
+</form>
       </div> <!-- /container -->
 
       <div class = "container">
 
          <form class = "form-signin" role = "form"
             action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);
-            ?>
+?>
