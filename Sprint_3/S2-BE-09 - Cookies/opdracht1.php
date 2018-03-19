@@ -14,8 +14,9 @@
   </form>
   <?php
   /* These are our valid username and passwords */
-  $user = 'jonny4';
-  $pass = 'delafoo';
+  $user = "0279410@student.rocvantwente.nl","0267730@student.rocvantwente.nl"
+  ,"0266931@student.rocvantwente.nl","0300838@student.rocvantwente.nl","0297652@student.rocvantwente.nl";
+  $pass = 'Welkom12345!';
 
   if (isset($_POST['username']) && isset($_POST['password')) {
 
