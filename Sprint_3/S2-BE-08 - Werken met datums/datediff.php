@@ -24,7 +24,7 @@
 
           $datum1 = DateTime($datum1);
           $datum2 = DateTime($datum2);
-
+          
           $verschil = date_diff($datum1,$datum2);
           echo "<br>Er zitten ".$verschil->format("%a dagen verschil tussen");
       }
