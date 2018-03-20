@@ -78,7 +78,7 @@ img {
     outline: none;
     border: 1px solid lightgray;
     border-radius: 3px;
-    padding: 10px 0px 10px 100px;
+    padding: 10px 0px 10px 10px;
   }
 
   input[type="password"]{
@@ -89,7 +89,7 @@ img {
     outline: none;
     border: 1px solid lightgray;
     border-radius: 3px;
-    padding: 10px 0px 10px 100px;
+    padding: 10px 0px 10px 10px;
   }
 
 
@@ -101,6 +101,16 @@ img {
     width: 60px;
     color: white;
     border-radius: 5px;
-    padding-right: 240px;
+
     background: #009900;
   }
+
+#gn {
+  padding-right: 155px;
+  padding-left: 85px;
+}
+
+#pw {
+  padding-right: 135px;
+  padding-left: 105px;
+}
