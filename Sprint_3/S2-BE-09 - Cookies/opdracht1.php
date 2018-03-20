@@ -5,7 +5,7 @@
     <title>Cookies</title>
 </head>
 <body>
-  <h2>Opdracht 1</h2>
+  <h2>Opdracht 1 Cookies</h2>
   <form name="login" method="post" action="login.php">
    Username: <input type="text" name="username"><br>
    Password: <input type="password" name="password"><br>
