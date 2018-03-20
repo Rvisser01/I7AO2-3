@@ -22,7 +22,7 @@
 
 
 
-  if (isset($_POST['username']) && isset($_POST['password')) {
+  if (isset($_POST['username']) && isset($_POST['password'])) {
 
       if (($_POST['username'] == $users) && ($_POST['password'] == $pass)) {
 
