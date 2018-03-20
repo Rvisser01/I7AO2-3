@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Cookies</title>
-  </head>
-    <body>
-      <form name="login" method="post">
-      <input type="submit" name="submit" value="Inloggen">
-      </form>
-<?php
+</head>
+<body>
+  <h2>Opdracht 1</h2>
+  <form name="login" method="post" action="login.php">
+   Username: <input type="text" name="username"><br>
+   Password: <input type="password" name="password"><br>
+   Remember Me: <input type="checkbox" name="rememberme" value="1"><br>
+   <input type="submit" name="submit" value="Login!">
+  </form>
+  <?php
+  /* These are our valid username and passwords */
+  $user = "0279410@student.rocvantwente.nl","0267730@student.rocvantwente.nl"
+  ,"0266931@student.rocvantwente.nl","0300838@student.rocvantwente.nl","0297652@student.rocvantwente.nl";
+  $pass = 'Welkom12345!';
 
-$users = array(
-  array("userName" => "123", "password" => "rimpelsteeltje"),
+  if (isset($_POST['username']) && isset($_POST['password')) {
 
-)
+      if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {
 
+          if (isset($_POST['rememberme'])) {
+              /* Set cookie to last 1 year */
+              setcookie('username', $_POST['username'], time()+60*60*24*365, '/account', 'www.example.com');
+              setcookie('password', md5($_POST['password']), time()+60*60*24*365, '/account', 'www.example.com');
 
-/* dit moet in een methode{
-  if($users[$i] => userName == "waarde in de textbox" && $users[$i] => password == "waarde uit de textbox password"){
-    //door sturen naar pagina
+          } else {
+              /* Cookie expires when browser closes */
+              setcookie('username', $_POST['username'], false, '/account', 'www.example.com');
+              setcookie('password', md5($_POST['password']), false, '/account', 'www.example.com');
+          }
+          header('Location: index.php');
+
+      } else {
+          echo 'Username/Password Invalid';
+      }
+
+  } else {
+      echo 'You must supply a username and password.';
   }
-}
-*/
-$msg = '';
-
-if (isset($_POST['login']) && !empty($_POST['username'])
-   && !empty($_POST['password'])) {
-
-   if ($_POST['username'] == '0279410@student.rocvantwente.nl', "0267730@student.rocvantwente.nl",
-   "0266931@student.rocvantwente.nl", "0300838@student.rocvantwente.nl", "0297652@student.rocvantwente.nl"
-   ,"0300013@student.rocvantwente.nl" &&
-      $_POST['password'] == 'Welkom12345!') {
-      $_SESSION['valid'] = true;
-      $_SESSION['timeout'] = time();
-      $_SESSION['username'] = 'tutorialspoint';
-
-      echo 'You have entered valid use name and password';
-   }else {
-      $msg = 'Wrong username or password';
-   }
-}
-
-<div> <!-- /container -->
-
-<div class = "container">
-
-<form class = "form-signin" role = "form"
-action = "echo htmlspecialchars"($_SERVER['PHP_SELF']);
-
-
-
-
-?>
-
-  </body>
+  ?>
+</body>
 
 </html>
