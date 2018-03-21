@@ -8,16 +8,12 @@
   <h2>Opdracht 1 Cookies</h2>
   <form name="login" method="post" action="login.php">
    Username: <input type="text" name="username"><br><?php
-   echo $_COOKIE['remember_me']; ?>">
+   echo $_COOKIE['remember_me']; ?>
    Password: <input type="pass" name="password"><br>
    Remember Me: <input type="checkbox" name="remember" value="1"><br>
    <input type="submit" name="submit" value="Login!">
   </form>
   <?php
-<<<<<<< HEAD
-
-=======
->>>>>>> a834db28a7d4fc4ed544d4014ba6c62e9f8c5737
 
 
   $users = array("username" => "0279410@student.rocvantwente.nl","0267730@student.rocvantwente.nl"
