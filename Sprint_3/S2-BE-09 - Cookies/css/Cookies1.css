@@ -12,10 +12,10 @@ body {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -35,7 +35,7 @@ img {
 .inlog {
     width: 400px;
     height: 350px;
-    padding-top: 50px;
+    padding-top: 0px;
     background-color: transparent;
     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.2);
     display: inline-block;
@@ -45,10 +45,12 @@ img {
     left: 0;
     right: 0;
     margin: auto;
+    margin-top: 155px;
     border-radius: 25px;
 }
 
 .button1 {
+  margin-top: 20px;
     background-color: #009900;
     color: white;
 }
@@ -77,8 +79,8 @@ img {
     box-sizing: border-box;
     outline: none;
     border: 1px solid lightgray;
-    border-radius: 3px;
-    padding: 10px 0px 10px 100px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
   }
 
   input[type="password"]{
@@ -88,19 +90,45 @@ img {
     box-sizing: border-box;
     outline: none;
     border: 1px solid lightgray;
-    border-radius: 3px;
-    padding: 10px 0px 10px 100px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
   }
 
 
-  label{
+  .label-input{
     margin-top: 50px;
     display: inline-block;
     height: 40px;
     line-height: 40px;
     width: 60px;
     color: white;
-    border-radius: 5px;
-    padding-right: 240px;
+    border-radius: 10px;
+
     background: #009900;
   }
+
+#gn {
+  padding-right: 155px;
+  padding-left: 85px;
+}
+
+#pw {
+  padding-right: 135px;
+  padding-left: 105px;
+}
+
+.rememberme {
+  color: white;
+}
+
+#label-error {
+  background: #009900;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  opacity: 0;
+}
+
+label:before {
+  color: transparent;
+}
