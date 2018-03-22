@@ -18,13 +18,13 @@
   $boeken = json_decode($boekenJasonLiteral,true);
 
   foreach ($boeken as $boek){
-    echo "<br>titel: ".$boek["titel"];
+    echo "<br><br>titel: ".$boek["titel"];
     echo "<br>auteur: ".$boek["auteur"];
     echo "<br>genre: ".$boek["genre"];
     echo "<br>prijs: ".$boek["prijs"];
   }
 
-  echo "<br>---- Opgave 65";
+  echo "<br><br>---- Opgave 65";
   $boekenObj = json_decode($boekenJasonLiteral);
 
   foreach ($boekenObj as $boek){
