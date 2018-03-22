@@ -20,6 +20,7 @@
           <div class="text-input">
             <input type="password" id="input2" name="password">
           </div>
+          <br>
           <input type="submit" name="submit" class="button button1" value="Login"><br>
           <p class="rememberme">Remember Me: <input type="checkbox" name="rememberme" value="1"></p>
         </form>
@@ -32,10 +33,12 @@
         <label id="label-error">
           <?php
             $users = array("username" => "0279410@student.rocvantwente.nl" ,"username" => "0267730@student.rocvantwente.nl"
-            ,"username" => "0266931@student.rocvantwente.nl" ,"username" => "0300838@student.rocvantwente.nl" ,"username" =>"0297652@student.rocvantwente.nl",
-            "password" => "Welkom12345!" );
+            ,"username" => "0266931@student.rocvantwente.nl" ,"username" => "0300838@student.rocvantwente.nl" ,"username" =>"0297652@student.rocvantwente.nl");
+            $password = array("password" => "Welkom12345!");
 
             if (isset($_POST['username']) && isset($_POST['password'])) {
+
+              
 
               if (isset($_POST['username']) && empty($_POST['password'])) {
                 echo "<script> onError(); </script>";
