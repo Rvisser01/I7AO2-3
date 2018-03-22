@@ -42,13 +42,21 @@ function maakCookieMelding(){
     var innerDiv = document.createElement('div');
     innerDiv.innerHTML = 'Acepteert u de cookies!';
 
-    var sluiten = document.createElement('a');
-    sluiten.id = 'cookiemelding_close';
-    sluiten.innerHTML = 'Akkoord';
-    sluiten.href = '#';
-    sluiten.onclick = sluitCookiemelding;
+    var akkoord = document.createElement('a');
+    akkoord.id = 'cookiemelding_close';
+    akkoord.innerHTML = 'Akkoord ';
+    akkoord.href = '#';
+    akkoord.onclick = sluitCookiemelding;
 
-    innerDiv.appendChild(sluiten);
+    var nietakkoord = document.createElement('a');
+    nietakkoord.id = 'cookiemelding_close';
+    nietakkoord.innerHTML = 'niet Akkoord ';
+    nietakkoord.href = 'https://bolletje.nl/';
+    nietakkoord.onclick = sluitCookiemelding;
+
+    innerDiv.appendChild(nietakkoord);
+    innerDiv.appendChild(akkoord);
+    div.appendChild(innerDiv);
     div.appendChild(innerDiv);
     document.body.appendChild(div);
 }
