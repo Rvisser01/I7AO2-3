@@ -31,13 +31,11 @@
         </script>
         <label id="label-error">
           <?php
-            $users = array("username" => "0279410@student.rocvantwente.nl" ,"username" => "0267730@student.rocvantwente.nl"
+            $users = array("username" => "0279410@student.rocvantwente.nl" ,"username" => "0267730@student.rocvantwente.nl" ,"username" => "0300013@student.rocvantwente.nl"
             ,"username" => "0266931@student.rocvantwente.nl" ,"username" => "0300838@student.rocvantwente.nl" ,"username" =>"0297652@student.rocvantwente.nl");
             $password = array("password" => "Welkom12345!");
 
             if (isset($_POST['username']) && isset($_POST['password'])) {
-
-              
 
               if (isset($_POST['username']) && empty($_POST['password'])) {
                 echo "<script> onError(); </script>";
