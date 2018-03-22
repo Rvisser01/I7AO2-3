@@ -20,6 +20,7 @@
           <div class="text-input">
             <input type="password" id="input2" name="wachtwoord">
           </div>
+          <br>
           <input type="submit" name="submit" class="button button1" value="Login"><br>
           <p class="rememberme">Remember Me: <input type="checkbox" name="rememberme" value="1"></p>
         </form>
