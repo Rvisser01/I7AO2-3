@@ -1,25 +1,49 @@
-<!DOCTYPE html>
-<html lang="nl" dir="ltr">
-  <head>
-    <link rel="stylesheet" type="text/css" href="myage.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <?php
-    $verjaardag = date_create("2001-03-14");
-    echo "<br>De dag dat ik ben geboren: ".date_format($verjaardag, "Y-m-d");
-    echo "<br>";
-    $vandaag = date_create("now");
-    echo "<br>De dag van vandaag: ".date_format($vandaag, "Y-m-d");
-    echo "<br>";
-    $interval = date_diff($vandaag, $verjaardag);
-    echo "<br>Ik ben ".$interval->h;
-    //echo "<br>Ik ben ".$interval->format("%a dagen oud");
-    //echo "<br>Ik ben ".$interval->format("%m weken oud");
-    //echo "<br>Ik ben ".$interval->format("%H%h uren oud");
-    //echo "<br>Ik ben ".$interval->format("%F minuten oud");
-    //echo "<br>Ik ben ".$interval->format("%f seconden oud");
-    ?>
-  </body>
+<?php
+
+/// Datum                          -|
+$datum1 = new DateTime("2001-03-14 0:00:01");
+
+$datum2 = new DateTime(date('Y-m-d H:i:s'));
+
+$diff = date_diff($datum1,$datum2);
+$diffD = $diff->days;
+
+$Maanden = $diffD / 30.39;
+$Weken = $Maanden * 4.33;
+$Uren = $diffD * 24;
+$Minuten = $Uren * 60;
+$Seconden = $Minuten * 60;
+
+?>
+
+<html>
+<head>
+    <style>
+
+    p.serif {
+      border-radius: 25px;
+      background: #f4f74c;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+      border: 5px solid red;
+      text-align: center;
+      text-decoration-color: black
+      font-size : 18pt
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+
+      }
+
+    </style>
+</head>
+<body>
+
+<p class="serif">Maanden: <?php echo $Maanden; ?></p>
+<p class="serif">weken: <?php echo $Weken; ?></p>
+<p class="serif">dagen: <?php echo $diffD; ?></p>
+<p class="serif">uren: <?php echo $Uren; ?></p>
+<p class="serif">minuten: <?php echo $Minuten; ?></p>
+<p class="serif">seconden: <?php echo $Seconden; ?></p>
+
+</body>
 </html>

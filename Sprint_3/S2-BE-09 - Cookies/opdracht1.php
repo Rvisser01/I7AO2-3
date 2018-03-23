@@ -7,13 +7,22 @@
 <body>
   <h2>Opdracht 1 Cookies</h2>
   <form name="login" method="post" action="login.php">
+<<<<<<< HEAD
    Username: <input type="text" name="username"><br>
+=======
+   Username: <input type="text" name="username"><br><?php
+   echo $_COOKIE['remember_me']; ?>
+>>>>>>> de354d97fbd621b767f3b44b0f19d3b32ae766ba
    Password: <input type="pass" name="password"><br>
    Remember Me: <input type="checkbox" name="remember" value="1"><br>
 
    <input type="submit" name="submit" value="Login!">
   </form>
   <?php
+<<<<<<< HEAD
+=======
+
+>>>>>>> de354d97fbd621b767f3b44b0f19d3b32ae766ba
 
   $users = array('username' => '0279410@student.rocvantwente.nl','0267730@student.rocvantwente.nl'
   ,'0266931@student.rocvantwente.nl','0300838@student.rocvantwente.nl','0297652@student.rocvantwente.nl',

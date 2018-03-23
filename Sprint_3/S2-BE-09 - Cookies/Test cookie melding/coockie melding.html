@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+    #content{
+        width:200px;
+    }
+
+    #cookiemelding{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 50px;
+        padding: 10px 0px;
+        background-color: #ABABAB;
+        text-align: center;
+        opacity: 0.9;
+    }
+
+    #cookiemelding_close{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at consequat ipsum. Vestibulum tempor elementum sollicitudin. Nullam volutpat, velit ut tristique bibendum, augue ligula adipiscing dui, et venenatis turpis tellus at est. Fusce sodales urna ut lorem blandit convallis. Morbi nec libero nunc. Ut volutpat malesuada massa vel fermentum. Proin velit enim, sodales adipiscing consectetur ut, aliquet in metus. Cras in sapien at velit scelerisque mattis ac ac ipsum. Nulla facilisi.
+
+    Mauris ut pharetra eros. Morbi sit amet augue et neque sagittis luctus. Vestibulum a tortor non mi pellentesque sollicitudin. Nam faucibus turpis quis lorem tempor eu lacinia felis feugiat. Nunc eu nunc lacus. Maecenas vulputate ligula ut nulla faucibus semper. Curabitur dapibus malesuada sem sit amet scelerisque. Nulla dapibus laoreet sapien, ultrices ultrices elit varius eu.
+
+    Nunc vitae enim tortor, sit amet tincidunt massa. In lacinia, ligula ac bibendum auctor, lectus nunc bibendum arcu, in aliquam dui massa et tellus. Nunc ornare elementum orci, ut lacinia odio congue et. Nulla eget mauris turpis. Cras dapibus blandit sem non dignissim. Proin erat nibh, molestie eu bibendum non, venenatis eget odio. Praesent dapibus, nibh eu gravida ultrices, ante magna tincidunt dolor, ac mattis arcu arcu vel ipsum. Sed imperdiet lectus quis nisl euismod condimentum. Praesent facilisis, sapien id vestibulum ornare, elit orci ullamcorper purus, non dapibus velit sem sit amet dolor. Aenean eu neque arcu, ut gravida dolor. Cras auctor adipiscing felis, ut elementum sapien lacinia at. In sagittis pretium nunc, eu convallis felis sodales ac.
+    </div>
+<script type="text/javascript">
+function maakCookieMelding(){
+    var div = document.createElement('div');
+    div.id = 'cookiemelding';
+
+    var innerDiv = document.createElement('div');
+    innerDiv.innerHTML = 'Acepteert u de cookies!';
+
+    var akkoord = document.createElement('a');
+    akkoord.id = 'cookiemelding_close';
+    akkoord.innerHTML = 'Akkoord ';
+    akkoord.href = '#';
+    akkoord.onclick = sluitCookiemelding;
+
+    var nietakkoord = document.createElement('a');
+    nietakkoord.id = 'cookiemelding_close';
+    nietakkoord.innerHTML = 'niet Akkoord ';
+    nietakkoord.href = 'https://bolletje.nl/';
+    nietakkoord.onclick = sluitCookiemelding;
+
+    innerDiv.appendChild(nietakkoord);
+    innerDiv.appendChild(akkoord);
+    div.appendChild(innerDiv);
+    div.appendChild(innerDiv);
+    document.body.appendChild(div);
+}
+
+function sluitCookiemelding(){
+    var cookiemelding = document.getElementById('cookiemelding');
+    cookiemelding.parentNode.removeChild(cookiemelding);
+    return false;
+}
+
+maakCookieMelding();
+</script>
+</body>
+</html>
