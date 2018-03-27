@@ -38,7 +38,7 @@
 
       //gebruiker opslaan
       $bestand=fopen("gebruikers.txt","ab");
-      if (!bestand)
+      if (!$bestand)
       {
         echo "Kon geen bestand openen!";
       }
