@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <form action="aanmelden.php" method="post" enctype="multipart/form-data">
+      <input required type="text"
+      name="naam" placeholder="Naam" /><br>
+      <input required type="email"
+      name="email" placeholder="e-mail" /><br>
+      <input required type="password"
+      name="password" placeholder="Wachtwoord" /><br>
+      Upload je foto.
+      <input type ="file" name="foto" id="foto">
+      <input type ="submit"
+      name="submit" value=" Aanmelden " />
+      <a href="inloggen.html">
+      <input type="button"
+      name="annuleren" value=" Annuleren " /></a>
+      </form>
+  </body>
+</html>
