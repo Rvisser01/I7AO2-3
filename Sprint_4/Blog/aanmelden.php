@@ -67,25 +67,6 @@
   }
 }
 ?>
+<br>
 <a href="aanmelden.html"><input type="button" name="terug" value=" Terug " />
 </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ?>
