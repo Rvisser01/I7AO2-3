@@ -32,7 +32,7 @@
     }
     //verplaats foto van temp-map naar uploadsMap
     if (upload()) {
-      if (move_uploaded_files($_FILES["foto"]["tmp_name"],
+      if (move_uploaded_file($_FILES["foto"]["tmp_name"],
       $uploadsMap)) {
         echo "Foto is geupload.";
 
