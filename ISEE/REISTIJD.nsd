@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.28" preRepeat="herhaal totdat" postFor="tot" preReturn="return" postForIn="in" preWhile="herhaal zolang" output="schrijf" input="lees" preFor="voor" preExit="exit" preLeave="leave" ignoreCase="true" preForIn="foreach" stepFor="by" author="Robbin" created="2018-03-15" changedby="Robbin" changed="2018-03-15" origin="Structorizer 3.28" text="&#34;REISTIJD&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;schrijf &#34;&#34;Geef de gemiddelde snelheid per uur?&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;lees GEMIDDELDESNELHEID&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;schrijf &#34;&#34;Geef de afstand in km?&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;lees AFSTAND&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;TIJD&#60;- AFSTAND/GEMIDDELDESNELHEID&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;schrijf &#34;&#34;Je hebt&#34;&#34; + TIJD + &#34;&#34;minuten nodig.&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+	</children>
+</root>
