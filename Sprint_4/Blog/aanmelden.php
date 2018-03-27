@@ -46,7 +46,7 @@
       $naam = htmlspecialchars($_POST['naam']);
       $email = htmlspecialchars($_POST['email']);
       $wachtwoord = htmlspecialchars($_POST['password']);
-      $profielFoto = $fotonaam;
+      $profielFoto = $fotoNaam;
 
       $profiel =
       $naam . "*" .
