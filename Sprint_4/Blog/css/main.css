@@ -1,0 +1,22 @@
+form {
+  width: 200px;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2ABFD4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  padding-left: 15px;
+  box-shadow:4px 4px 10px rgba (0,0,0,0.5);
+}
+
+input {
+  margin: 5px;
+  border-radius: 3px;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #B4E0E1;
+  border: 0px;
+}
