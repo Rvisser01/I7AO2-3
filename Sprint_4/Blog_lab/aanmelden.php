@@ -9,9 +9,8 @@
       $fotoType = pathinfo($uploadsMap,PATHINFO_EXTENSION);
 
       //controleer of deze foto al bestaat
-      if (file_exists($uploadsMap)) {
-        echo "Deze foto bestaat al.";
-        return false;
+      {$RandomAccountNumber = uniqid();
+      echo "$RandomAccountNumber";
       }
 
       //valideer fotosize
@@ -25,7 +24,7 @@
       $fotoType != "png" &&
       $fotoType != "jpeg" &&
       $fotoType != "gif" ){
-      echo "Foto moet JPG, JPEG, PNG of GIF zijn.";
+      echo "U moet een Foto selecteren en het moet een JPG, JPEG, PNG of GIF zijn.";
       return false;
       }
       return true;
