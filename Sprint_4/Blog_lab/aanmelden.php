@@ -14,17 +14,6 @@
 
       }
 
-      // Geef random naam aan image (Arben)
-      if(isset($_post{"submit"})){
-        $name = $_FILES['file']['Name'];
-        $random = rand (0.99999999)
-        $name_new = sha1($name.$random);
-         echo $name_new
-
-      }
-
-
-
       //valideer fotosize
       if ($_FILES["foto"]["size"] > 500000) {
         echo "Deze foto is te groot.";
@@ -77,9 +66,7 @@
     }
   }
 }
-
-
-
+?>
 <br>
 <a href="aanmelden.html"><input type="button" name="terug" value=" Terug " />
 </a>
