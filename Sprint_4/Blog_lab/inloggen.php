@@ -25,6 +25,7 @@ while(!feof($bestand))
 
   }
 }
+q
 echo "
 <script>
 alert('Wachtwoord of gebruikersnaam ongeldig.');
