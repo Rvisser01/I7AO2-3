@@ -14,9 +14,9 @@ while(!feof($bestand))
   $account = explode("*", $account);
   if($account[1] == $email && $account[2] == $wachtwoord){
     session_start();
-    $_SESSIONS["USER"] = $email;
-    $_SESSIONS["STATUS"] = 1;
-    $_SESSIONS["ID"] = $_COOkIE["PHPSESSID"];
+    $_SESSION["USER"] = $email;
+    $_SESSION["STATUS"] = 1;
+    $_SESSION["ID"] = $_COOKIE["PHPSESSID"];
     echo "
     <script>
     alert('U bent ingelogd als $email.');
