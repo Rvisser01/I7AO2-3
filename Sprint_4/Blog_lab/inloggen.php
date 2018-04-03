@@ -16,7 +16,6 @@ while(!feof($bestand))
     session_start();
     $_SESSIONS["USER"] = $email;
     $_SESSIONS["STATUS"] = 1;
-    $_SESSIONS["ID"] = $_COOkIE["PHPSESSID"];
     echo "
     <script>
     alert('U bent ingelogd als $email.');
