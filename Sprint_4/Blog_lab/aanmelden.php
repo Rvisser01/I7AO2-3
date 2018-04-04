@@ -4,13 +4,11 @@
     global $uploadsMap;
     function upload(){
       global $uploadsMap;
-      $uploadsMap = "uploads/";
-      $uploadsMap = $uploadsMap . $_FILES["foto"]["name"];
-      $fotoType = pathinfo($uploadsMap,PATHINFO_EXTENSION);
       $FotoNaamTemp = $_FILES["foto"]["tmp_name"];
+      $fotoType = pathinfo($uploadsMap,PATHINFO_EXTENSION);
 
-      //controleer of deze foto al bestaat
-      $RandomFotoId = uniqid(".JPG");
+      //Maakt random foto id aan
+      $RandomFotoId = uniqid(). ".jpg";
 
       move_uploaded_file($FotoNaamTemp,"uploads/" . $RandomFotoId);
 
@@ -19,16 +17,6 @@
         echo "Deze foto is te groot.";
         return false;
       }
-
-      //valideer formaat
-      if ($fotoType != "jpg" &&
-      $fotoType != "png" &&
-      $fotoType != "jpeg" &&
-      $fotoType != "gif" ){
-      echo "Foto moet JPG, JPEG, PNG of GIF zijn.";
-      return false;
-      }
-      return true;
     }
     //verplaats foto van temp-map naar uploadsMap
     if (upload()) {
