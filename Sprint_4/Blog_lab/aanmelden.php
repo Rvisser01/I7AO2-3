@@ -1,18 +1,18 @@
 <?php
   if (isset($_POST["submit"])) {
-    $fotoNaam = basename($_FILES["foto"]["name"]);
+    $fotoNaam = $_FILES["foto"]["name"];
     global $uploadsMap;
     function upload(){
       global $uploadsMap;
       $uploadsMap = "uploads/";
-      $uploadsMap = $uploadsMap . basename($_FILES["foto"]["name"]);
+      $uploadsMap = $uploadsMap . $_FILES["foto"]["name"];
       $fotoType = pathinfo($uploadsMap,PATHINFO_EXTENSION);
-{
-      //controleer of deze foto al bestaat
-      {$RandomAccountNumber = uniqid();
-      echo "$RandomAccountNumber";
+      $FotoNaamTemp = $_FILES["foto"]["tmp_name"];
 
-      }
+      //controleer of deze foto al bestaat
+      $RandomFotoId = uniqid(".JPG");
+
+      move_uploaded_file($FotoNaamTemp,"uploads/" . $RandomFotoId);
 
       //valideer fotosize
       if ($_FILES["foto"]["size"] > 500000) {
@@ -25,17 +25,13 @@
       $fotoType != "png" &&
       $fotoType != "jpeg" &&
       $fotoType != "gif" ){
-      echo "U moet een Foto selecteren en het moet een JPG, JPEG, PNG of GIF zijn.";
+      echo "Foto moet JPG, JPEG, PNG of GIF zijn.";
       return false;
       }
       return true;
     }
     //verplaats foto van temp-map naar uploadsMap
     if (upload()) {
-      if (move_uploaded_file($_FILES["foto"]["tmp_name"],
-      $uploadsMap)) {
-        echo "Foto is geupload.";
-
       //gebruiker opslaan
       $bestand=fopen("gebruikers.txt","ab");
       if (!$bestand)
@@ -61,9 +57,6 @@
       }else {
         echo "Kon bestand niet afsluiten";
       }
-    }else{
-      echo "Probleem bij het uploaden. Foto niet geupload";
-    }
   }
 }
 ?>
