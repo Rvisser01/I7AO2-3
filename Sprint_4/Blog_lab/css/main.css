@@ -1,4 +1,4 @@
-form {
+fieldset {
   width: 200px;
   margin-top: 7%;
   margin-left: auto;
@@ -19,4 +19,7 @@ input {
 input[type=button], input[type=submit] {
   background-color: #B4E0E1;
   border: 0px;
+}
+textarea {
+    resize: none;
 }
