@@ -9,8 +9,8 @@
       $fotoType = pathinfo($uploadsMap,PATHINFO_EXTENSION);
 {
       //controleer of deze foto al bestaat
-      //{$RandomAccountNumber = uniqid();
-      //echo "$RandomAccountNumber";
+      {$RandomAccountNumber = uniqid();
+      echo "$RandomAccountNumber";
 
       }
 
