@@ -30,7 +30,7 @@
       $naam = htmlspecialchars($_POST['naam']);
       $email = htmlspecialchars($_POST['email']);
       $wachtwoord = htmlspecialchars($_POST['password']);
-      $profielFoto = uniqid(). ".jpg";
+      $profielFoto = $RandomFotoId;
 
       $profiel =
       $naam . "*" .
