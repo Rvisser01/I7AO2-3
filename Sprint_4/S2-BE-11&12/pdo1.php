@@ -13,9 +13,9 @@
 
         echo "<br />---- Opgave 97: PDO verbinding maken.";
         $dbhost = "localhost";
-        $dbname = "webshop";
-        $user = "root";
-        $pass = "";
+        $dbname = "robbiwn275_groep3";
+        $user = "robbiwn275_groep3";
+        $pass = "robbin";
         try {
           $database = new
           PDO("mysql:host=$dbhost;dbname=$dbname",$user,$pass);
