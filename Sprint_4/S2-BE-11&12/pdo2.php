@@ -8,10 +8,10 @@
   </head>
   <body>
   <?php
-    echo "<br />---- Opgave 96: Drivers: ";
+    echo "<br>---- Opgave 96: Drivers: ";
     print_r(PDO::getAvailableDrivers());
 
-        echo "<br />---- Opgave 97: PDO verbinding maken.";
+        echo "<br>---- Opgave 97: PDO verbinding maken.";
         $dbhost = "localhost";
         $dbname = "webshop";
         $user = "root";
@@ -21,14 +21,14 @@
           PDO("mysql:host=$dbhost;dbname=$dbname",$user,$pass);
           $database->setAttribute
           (PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
-          echo "<br />Verbinding Gemaakt";
+          echo "<br>Verbinding Gemaakt";
         }
         catch (PDOException $e) {
           echo $e->getMessage();
-          echo "<br />Verbinding NIET Gemaakt";
+          echo "<br>Verbinding NIET Gemaakt";
         }
 
-     echo "<br />---- Opgave 98: Input data vanuit geïndexeerde array.";
+     echo "<br>---- Opgave 98: Input data vanuit geïndexeerde array.";
      $query = "INSERT INTO album (titel, artiest, genre, prijs, voorraad) values(?,?,?,?,?)";
      $insert = $database->prepare($query);
      $data = array("Stairway to Heaven", "Led Zeppelin", "Rock", "0.99", "200");
