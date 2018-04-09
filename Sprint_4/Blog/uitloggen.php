@@ -1,8 +1,7 @@
 <?php
-//Vind de sessie
-  session_start();
-  //Einde sessie aanmelden
-  echo "Tot ziens " . $_SESSION['user'];
-  //Verwijder sessie
-  session_destroy();
- ?>
+session_start();
+echo "Tot ziens " . $_SESSION['USER'];
+session_destroy();
+?>
+<a href="inloggen.html"><input type="button"
+                                  name="inloggen" value=" Terug naar inlog pagina " />

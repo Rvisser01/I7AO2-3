@@ -5,18 +5,16 @@
     <title>Home</title>
 </head>
 <body>
-<form action ="aanmelden.php" method="post" enctype="multipart/form-data">
+<form action ="tussenscherm.php" method="post" enctype="multipart/form-data">
     <input required type="text"
            name="naam" placeholder="Naam"  /><br>
     <input required type="email"
            name="email" placeholder="e-mail"  /><br>
-    <input required type="password"
-           name="password" placeholder="Wachtwoord"  /><br>
-    Upload je foto.
-    <input type="file" name="foto" id="foto">
-    <input type="submit"
+    <input required type="text"
+           name="blog" placeholder="Blogs posten"  /><br>
+        <input type="submit"
            name="submit" placeholder="Aanmelden"  />
-    <a href="inloggen.html">
+    <a href="welkom.php">
         <input type="button"
                name="annuleren" value=" Annuleren"  /></a>
 </form>
