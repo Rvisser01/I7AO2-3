@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/main.css">
-    <meta charset="utf-8">
-    <title>Blog inlogscherm</title>
-  </head>
-  <body>
-    <form name="inloggen" method="POST" enctype="multipart/form-data" action="inloggen.php">
-      <input placeholder="email@voorbeeld.nl" type="text" name="email"><br>
-      <input placeholder="wachtwoord" type="password" name="password"><br>
-      <a href="aanmelden.html">
-      <input type="submit" name="aanmelden" value="aanmelden"></a>
-    </form>
-  </body>
+<html>
+<head>
+  <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form name="inloggen" method="post" enctype="multipart/form-data" action="inloggen.php">
+    <input placeholder="email@voorbeeld.nl" type="text" name="email" ><br>
+    <input placeholder="password" type="password" name="password" ><br>
+    <input type="submit" name="submit" value="Inloggen" />
+    <a href="aanmelden.html">
+        <input type="button" name="aanmelden" value="Aanmelden" /></a>
+</form>
+</body>
 </html>
