@@ -10,21 +10,21 @@
 
   fwrite($blog,"blogs.txt");
   $bestand = fopen ("blog.txt" , "w");
-  if (!$out) (
+  if (!$out)
    header ('location:  ')
     exit;
 
 )
 
+ De penis prikkel. Damian neukt Anouk reekers
+$title = $_POST['titel'];
+$blogpost = $_POST['blogpost'];
+$blog = $title . "*" . $blogpost;
 
-//$title = $_POST['titel'];
-//$blogpost = $_POST['blogpost'];
-//$blog = $title . "*" . $blogpost;
+fputs ($out,"$title\t");
+fputs ($out,"$comment\n");
 
-//fputs ($out,"$title\t");
-//fputs ($out,"$comment\n");
-
-//fclose ($out);
-//header ('Location: blog.php');
-//exit;
+fclose ($out);
+header ('Location: blog.php');
+exit;
 ?>
