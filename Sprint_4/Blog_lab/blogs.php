@@ -11,11 +11,11 @@
 
 //  fwrite($blog,"blogs.txt");
  $bestand = fopen ("blog.txt" , "a");
- if (!$out) (
-   header ('location:  ')
-    exit;
+ if (!$out) {
+   header ('location:  ');
+   exit;
 
-)
+}
 
 
 $title = $_POST['titel'];
