@@ -13,20 +13,6 @@
  $bestand = fopen ("blog.txt" , "w");
  if (!$out)
  {
-   header ('location:  ')
+   header ('location:  ');
    exit;
- }
-
-
-$title = $_POST['titel'];
-$blogpost = $_POST['blogpost'];
-$blog = $title . "*" . $blogpost;
-
-fputs ($out,"$title\t");
-fputs ($out,"$comment\n");
-
-fclose ($out);
-header ('Location: blog.php');
-exit;
-
-?>
+}
