@@ -1,0 +1,11 @@
+Database:
+robbiwn275_groep3
+
+Host:
+localhost
+
+Username:
+robbiwn275_groep3
+
+Password:
+robbin
