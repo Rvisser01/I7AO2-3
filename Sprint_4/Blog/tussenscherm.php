@@ -7,12 +7,10 @@ if(!$bestand)
 }
 
 $naam = htmlspecialchars ($_POST['naam']);
-$email = htmlspecialchars ($_POST['email']);
 $blog = htmlspecialchars ($_POST['blog']);
 
 $profiel =
-    $naam . " " .
-    $email . "<br>" .
+    $naam . "<br>" .
     $blog . "\n";
 
 fwrite($bestand,$profiel,strlen($profiel));
