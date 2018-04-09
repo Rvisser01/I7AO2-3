@@ -4,7 +4,7 @@ $mijnSession = session_id();
 if(isset($_SESSION['ID']) && $_SESSION['ID']=== $mijnSession){
     echo "<h3>Welkom</h3>";
 }else{
-    echo "Je moet eerst inloggen!<br>";
+    echo "U moet eerst inloggen!<br>";
 }
 ?>
 <a href='profiel.php'><input type='button' name='profiel' value='Profiel  '  /></a>
