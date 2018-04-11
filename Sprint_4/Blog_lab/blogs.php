@@ -18,6 +18,11 @@
  $bestand = fopen ("blog.txt" , "w");
  if (!$out)
  {
+<<<<<<< HEAD
+   header ('location:  ');
+   exit;
+}
+=======
 >>>>>>> 0828d149fe98d3f22337364b737076b89e588db8
    header ('location:  ')
    exit;
@@ -43,3 +48,4 @@ exit;
 
 >>>>>>> 0828d149fe98d3f22337364b737076b89e588db8
 ?>
+>>>>>>> 7731b03a98fa43bc363d25363cd8be7bc3e7fb09
