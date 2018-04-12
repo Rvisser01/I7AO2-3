@@ -20,11 +20,16 @@
         <div class="mask flex-center waves-effect waves-light">
         </div>
     </div>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn aqua-gradient btn-rounded">Over ons</button>
-          <button type="button" class="btn aqua-gradient btn-rounded">Meld klacht</button>
-          <button type="button" class="btn aqua-gradient btn-rounded">Overzicht klachten</button>
-        </div>
+    <div class="card">
+      <h3 class="card-header primary-color white-text"><?php echo "$naam $tussen $achternaam"; ?></h3>
+    <div class="card-body">
+        <h4 class="card-title"><?php echo "$email"; ?></h4>
+
+        <h5 class="card-subtitle mb-2 text-muted"><?php echo "$adres $postcode"; ?></h5>
+        <hr>
+        <p class="card-text"><?php echo "$klachtText"; ?></p>
+    </div>
+</div>
         <img src="f" alt="">
     <!--Footer-->
     <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
