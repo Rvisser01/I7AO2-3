@@ -1,8 +1,3 @@
-<?php
-//Connect to DB
-$con = mysqli_connect("vserver275.axc.nl", "robbiwn275_schiphol", "robbin", "robbiwn275_schiphol") or die("couldn't connect to the database!");
-?>
-
 <!DOCTYPE html>
 <html lang="nl" dir="ltr">
   <head>
@@ -25,44 +20,16 @@ $con = mysqli_connect("vserver275.axc.nl", "robbiwn275_schiphol", "robbin", "rob
         <div class="mask flex-center waves-effect waves-light">
         </div>
     </div>
-    <br>
-    <center>
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn aqua-gradient btn-rounded">Over ons</button>
-      <button type="button" class="btn aqua-gradient btn-rounded">Meld klacht</button>
-      <button type="button" class="btn aqua-gradient btn-rounded">Overzicht klachten</button>
+    <div class="card">
+      <h3 class="card-header primary-color white-text"><?php echo "$naam $tussen $achternaam"; ?></h3>
+    <div class="card-body">
+        <h4 class="card-title"><?php echo "$email"; ?></h4>
+
+        <h5 class="card-subtitle mb-2 text-muted"><?php echo "$adres $postcode"; ?></h5>
+        <hr>
+        <p class="card-text"><?php echo "$klachtText"; ?></p>
     </div>
-  </center>
-    <br>
-    <?php
-    $SQLselectAll = "SELECT * FROM klachten";
-    $runSelectAll = mysqli_query($con, $SQLselectAll);
-
-    while($row = mysqli_fetch_array($runSelectAll)) {
-      $naam = htmlspecialchars($row["naam"], ENT_QUOTES, 'UTF-8');
-      $tussen = htmlspecialchars($row["tussenvoegsel"], ENT_QUOTES, 'UTF-8');
-      $achternaam = htmlspecialchars($row["achternaam"], ENT_QUOTES, 'UTF-8');
-      $adres = htmlspecialchars($row["adres"], ENT_QUOTES, 'UTF-8');
-      $postcode = htmlspecialchars($row["postcode"], ENT_QUOTES, 'UTF-8');
-      $email = htmlspecialchars($row["email"], ENT_QUOTES, 'UTF-8');
-      $klachtText = htmlspecialchars($row["klacht"], ENT_QUOTES, 'UTF-8');
-
-      echo "
-      <div class='card'>
-        <h3 class='card-header primary-color white-text'>$naam $tussen $achternaam</h3>
-          <div class='card-body'>
-              <h4 class='card-title'>$email</h4>
-
-              <h5 class='card-subtitle mb-2 text-muted'>$adres $postcode</h5>
-              <hr>
-              <p class='card-text'>$klachtText</p>
-          </div>
-      </div>
-      <br>
-      ";
-    }
-     ?>
-
+</div>
         <img src="f" alt="">
     <!--Footer-->
     <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
