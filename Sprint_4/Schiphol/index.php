@@ -65,18 +65,18 @@ $con = mysqli_connect("vserver275.axc.nl", "robbiwn275_schiphol", "robbin", "rob
 
         <img src="f" alt="">
     <!--Footer-->
+    <!--Footer-->
     <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
 
         <!--Footer Links-->
         <div class="container text-center text-md-left">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Groep 3</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Schiphol</h6>
             <!-- Footer links -->
             <div class="row text-center text-md-left mt-3 pb-3">
 
                 <!--First column-->
                     <br>
-                    <p>Wij zijn een groep voor een school project. <p>De groep bestaat uit 5 leden:
-                       Damian Trojak, Robbin Visser, Arben Hajrizaj, Pim Hoomans, Peter Kuipers en de scrummaster Laurence van der Wel.</p></p>
+                    <p>Meldpunt schiphol. Op onze webpagina kunt u klachten bekijken van omwonenden. Ook kunt u zelf hier klachten indienen als u rondom vliegveld Schiphol woont.</p>
                 <!--/.First column-->
             </div>
             <!-- Footer links -->
@@ -89,7 +89,7 @@ $con = mysqli_connect("vserver275.axc.nl", "robbiwn275_schiphol", "robbin", "rob
                 <div class="col-md-8 col-lg-8">
 
                     <!--Copyright-->
-                    <p class="text-center text-md-left grey-text">© 2018 Copyright: <strong>Laurence van der Wel</strong></p>
+                    <p class="text-center text-md-left grey-text">© 2018 Copyright: <strong>Groep 3</strong></p>
                     <!--/.Copyright-->
 
                 </div>
