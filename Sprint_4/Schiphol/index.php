@@ -1,37 +1,11 @@
 <?php
-  PDO::getAvailableDrivers();
-  $dbhost = "localhost";
-  $dbname = "robbiwn275_schiphol";
-  $user = "robbiwn275_schiphol";
-  $pass = "robbin";
-  $postcodes_DB = mysql_query("SELECT postcode FROM postcode");
-  $postcode_DB = mysql_fetch_array($postcodes_DB);
-  ?>
+//Connect to DB
+$con = mysqli_connect("vserver49.axc.nl", "robbiwn275_schiphol", "robbin", "robbiwn275_schiphol") or die("couldn't connect to the database!");
 
+$SQLselectAll = "SELECT * FROM klachten";
+$runSelectAll = mysqli_query($con, $SQLselectAll);
+$row = mysqli_fetch_array($runSelectAll);
 
-
-
-
-
-
-  <?php
-
-  if ($postcode===$postcode_DB) {
-    $sql = "INSERT INTO klacht (ID, ID_gebruiker, ID_klachtsoort, postcode, datum, tijd)
-    VALUES ($ID,$ID_gebruiker, $ID_klachtsoort, $postcode, $datum, $tijd)";
-    $sql .= "INSERT INTO gebruiker (ID, ID_gebruiker, ID_klachtsoort, postcode, datum, tijd)
-    VALUES ($ID,$ID_gebruiker, $ID_klachtsoort, $postcode, $datum, $tijd)";
-  }
-  else {
-    echo "U woont niet in de buurt van Schiphol en bent daarom niet gemachtigd om een klacht in te dienen";
-  }
-
-  try {
-    $database = new
-    PDO("mysql:host=$dbhost;dbname=$dbname",$user,$pass);
-    $database->setAttribute
-    (PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
-  }
-  catch (PDOException $e) {
-  }
+$naam = htmlspecialchars($row["naam"], ENT_QUOTES, 'UTF-8');
+echo "$naam";
 ?>
