@@ -20,53 +20,30 @@
         <div class="mask flex-center waves-effect waves-light">
         </div>
     </div>
-    <br>
+    <div class="card">
+      <h3 class="card-header primary-color white-text"><?php echo "$naam $tussen $achternaam"; ?></h3>
+    <div class="card-body">
+        <h4 class="card-title"><?php echo "$email"; ?></h4>
 
-    <!--Card-->
-    <div class="card card-cascade wider reverse my-4">
-      <!--Card content-->
-      <div class="card-body text-center">
-        <!--Title-->
-        <h4 class="card-title"><strong>Meldpunt</strong></h4>
-
-        <p class="card-text">Meldpunt Schiphol is het informatie- en klachtencentrum waar omwonenden terecht kunnen met al hun vragen en klachten over het vliegverkeer van,
-          naar en op Schiphol. Het meldpunt is een gezamenlijk initiatief van Luchtverkeersleiding Nederland (LVNL) en Amsterdam Airport Schiphol (AAS).
-          Iedereen heeft toegang om de klachten te kunnen bekijken.
-         </p>
-
-       </div>
-       <hr>
-       <!--/.Card content-->
-     </div>
-     <center>
-     <img src="img/foto2.jpg" alt="klacht" height="100px">-------
-     <img src="img/foto1.jpg" alt="klacht" height="100px">-------
-     <img src="img/foto3.jpg" alt="klacht" height="100px">
-   </center>
-     <br>
-
-
-    <br>
-    <center>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a href="about.html"><button type="button" class="btn blue btn-rounded">Over ons</button></a>
-          <a href="formulier.php"><button type="button" class="btn blue btn-rounded">Meld klacht</button></a>
-          <a href="klachten.php"><button type="button" class="btn blue btn-rounded">klachten</button></a>
-        </div>
-      </center>
+        <h5 class="card-subtitle mb-2 text-muted"><?php echo "$adres $postcode"; ?></h5>
+        <hr>
+        <p class="card-text"><?php echo "$klachtText"; ?></p>
+    </div>
+</div>
         <img src="f" alt="">
     <!--Footer-->
     <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
 
         <!--Footer Links-->
         <div class="container text-center text-md-left">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Schiphol</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Groep 3</h6>
             <!-- Footer links -->
             <div class="row text-center text-md-left mt-3 pb-3">
 
                 <!--First column-->
                     <br>
-                    <p>Meldpunt schiphol. Op onze webpagina kunt u klachten bekijken van omwonenden. Ook kunt u zelf hier klachten indienen als u rondom vliegveld Schiphol woont.</p>
+                    <p>Wij zijn een groep voor een school project. <p>De groep bestaat uit 5 leden:
+                       Damian Trojak, Robbin Visser, Arben Hajrizaj, Pim Hoomans, Peter Kuipers en de scrummaster Laurence van der Wel.</p></p>
                 <!--/.First column-->
             </div>
             <!-- Footer links -->
@@ -79,7 +56,7 @@
                 <div class="col-md-8 col-lg-8">
 
                     <!--Copyright-->
-                    <p class="text-center text-md-left grey-text">© 2018 Copyright: <strong>Groep 3</strong></p>
+                    <p class="text-center text-md-left grey-text">© 2018 Copyright: <strong>Laurence van der Wel</strong></p>
                     <!--/.Copyright-->
 
                 </div>
