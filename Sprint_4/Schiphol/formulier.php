@@ -41,37 +41,37 @@
 
                   <!-- Default input name -->
                   <label for="defaultFormContactNameEx" class="grey-text">Naam</label>
-                  <input type="text" id="defaultFormContactNameEx" class="form-control">
+                  <input type="text" id="defaultFormContactNameEx" class="form-control" name="Naam">
 
                   <br>
 
                   <!-- Default input email -->
                   <label for="defaultFormContactEmailEx" class="grey-text">Achternaam</label>
-                  <input type="Text" id="defaultFormContactEmailEx" class="form-control">
+                  <input type="Text" id="defaultFormContactEmailEx" class="form-control" name="Achternaam">
 
                   <br>
 
                   <!-- Default input subject -->
                   <label for="defaultFormContactSubjectEx" class="grey-text">Adres</label>
-                  <input type="text" id="defaultFormContactSubjectEx" class="form-control">
+                  <input type="text" id="defaultFormContactSubjectEx" class="form-control" name="Adres">
 
                   <br>
 
 				  <!-- Default input name -->
                   <label for="defaultFormContactNameEx" class="grey-text">Postcode</label>
-                  <input type="text" id="defaultFormContactNEx" class="form-control">
+                  <input type="text" id="defaultFormContactNEx" class="form-control" name="Postcode">
 
 				  <br>
 
 				  <!-- Default input name -->
                   <label for="defaultFormContactNameEx" class="grey-text">Telefoonnummer</label>
-                  <input type="text" id="defaultFormContactNaeEx" class="form-control">
+                  <input type="text" id="defaultFormContactNaeEx" class="form-control" name="Telefoonnummer">
 
 				  <br>
 
                   <!-- Default textarea message -->
                   <label for="defaultFormContactMessageEx" class="grey-text">Klacht</label>
-                  <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+                  <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3" name="Klachtformulier"></textarea>
 
                   <div class="text-center mt-4">
 				   <button class="btn btn-outline-warning" type="Back">Terug<i></i></button>
@@ -108,5 +108,17 @@
             </div>
 
 </footer>
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/jquery-3.2.1.min.js"></script>
+
+<!-- Tooltips -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/popper.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
 </body>
 </html>
